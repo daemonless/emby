@@ -1,0 +1,72 @@
+ARG BASE_VERSION=15
+FROM ghcr.io/daemonless/base:${BASE_VERSION}
+
+ARG FREEBSD_ARCH=amd64
+ARG PACKAGES="dotnet8 expat fontconfig freetype2 fribidi gettext-runtime intel-media-sdk libarchive libass libdrm libexif libiconv libogg libtheora libva libvorbis libzvbi mbedtls3 ocl-icd opus pango sqlite3 tesseract"
+ARG UPSTREAM_URL="https://api.github.com/repos/MediaBrowser/Emby.Releases/releases/latest"
+ARG UPSTREAM_JQ=".tag_name"
+{%- if ports %}
+ARG HEALTHCHECK_ENDPOINT="http://localhost:{{ ports[0].port }}/System/Ping"
+{%- else %}
+ARG HEALTHCHECK_ENDPOINT="http://localhost:8096/System/Ping"
+{%- endif %}
+
+ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
+
+# --- Metadata (Injected by Generator) ---
+LABEL org.opencontainers.image.title="{{ title }}" \
+      org.opencontainers.image.description="{{ description }}" \
+      org.opencontainers.image.source="{{ repo_url }}" \
+      org.opencontainers.image.url="{{ web_url }}" \
+      org.opencontainers.image.licenses="LicenseRef-Emby-EULA" \
+      org.opencontainers.image.vendor="daemonless" \
+      org.opencontainers.image.authors="daemonless" \
+      io.daemonless.category="{{ category }}" \
+{%- if ports %}
+      io.daemonless.port="{{ ports[0].port }}" \
+{%- endif %}
+{%- if volumes %}
+      io.daemonless.volumes="{{ volumes | map(attribute='path') | join(',') }}" \
+{%- endif %}
+{%- if mlock %}
+      org.freebsd.jail.allow.mlock="required" \
+{%- endif %}
+      io.daemonless.arch="${FREEBSD_ARCH}" \
+      io.daemonless.upstream-url="${UPSTREAM_URL}" \
+      io.daemonless.upstream-jq="${UPSTREAM_JQ}" \
+      io.daemonless.healthcheck-url="${HEALTHCHECK_ENDPOINT}" \
+      io.daemonless.packages="${PACKAGES}"
+
+# Install runtime dependencies
+RUN pkg update && \
+    pkg install -y ${PACKAGES} && \
+    pkg clean -ay && \
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
+
+# Download and install latest Emby Server from upstream
+RUN VERSION=$(fetch -qo - https://api.github.com/repos/MediaBrowser/Emby.Releases/releases/latest | jq -r .tag_name) && \
+    fetch -o /tmp/emby-server.pkg \
+      "https://github.com/MediaBrowser/Emby.Releases/releases/download/${VERSION}/emby-server-freebsd15_${VERSION}_amd64.pkg" && \
+    pkg add /tmp/emby-server.pkg && \
+    mkdir -p /app && \
+    echo "${VERSION}" > /app/version && \
+    rm /tmp/emby-server.pkg && \
+    pkg clean -ay && \
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
+
+RUN pw usermod bsd -d /config
+ENV HOME=/config
+
+COPY root/ /
+
+RUN chmod +x /etc/services.d/emby-server/run /healthz
+
+# --- Expose (Injected by Generator) ---
+{%- if ports %}
+EXPOSE {{ ports | map(attribute='port') | join(' ') }}
+{%- endif %}
+
+# --- Volumes (Injected by Generator) ---
+{%- if volumes %}
+VOLUME {{ volumes | map(attribute='path') | join(' ') }}
+{%- endif %}

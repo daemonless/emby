@@ -1,0 +1,39 @@
+name: emby
+
+x-daemonless:
+  title: "Emby"
+  icon: ":simple-emby:"
+  category: "Media Servers"
+  description: "Personal media server with apps on just about every device."
+  upstream_url: "https://api.github.com/repos/MediaBrowser/Emby.Releases/releases/latest"
+  web_url: "https://emby.media/"
+  freshports_url: "https://www.freshports.org/multimedia/emby-server/"
+  user: "bsd"
+  mlock: true
+  appjail: true
+
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+    volumes:
+      /config: "Configuration and data directory"
+    ports:
+      8096: "Web UI"
+
+services:
+  emby:
+    image: ghcr.io/daemonless/emby:latest
+    container_name: emby
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/emby:/config
+
+    ports:
+      - 8096:8096

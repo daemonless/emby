@@ -1,0 +1,21 @@
+build:
+  auto_version: true
+  variants:
+    # NOTE: :latest is temporarily aliased to :pkg (FreeBSD pkg, 4.9.3.0) because
+    # the upstream binary (4.9.5.0) has a transcoding regression on FreeBSD that
+    # generates -vn -an -sn (no streams). Switch back to Containerfile when fixed.
+    - tag: latest
+      containerfile: Containerfile.pkg
+    - tag: pkg
+      containerfile: Containerfile.pkg
+    - tag: pkg-latest
+      containerfile: Containerfile.pkg
+      args:
+        BASE_VERSION: "15-latest"
+
+cit:
+  mode: screenshot
+  port: 8096
+  annotations:
+    - "org.freebsd.jail.allow.mlock=true"
+
