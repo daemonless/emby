@@ -1,0 +1,2840 @@
+{
+  "generated": "2026-05-22T21:56:44Z",
+  "image": "emby-server",
+  "tags": {
+    "pkg": {
+      "app_version": "4.9.3.0",
+      "arch": "amd64",
+      "generated": "2026-05-22T21:55:13Z",
+      "packages": {
+        "dotnet": [
+          {
+            "name": "Emby.FFmpegBinaries.Mac",
+            "version": "2023.6.25.4"
+          },
+          {
+            "name": "Emby.FFmpegBinaries.Windows",
+            "version": "2023.6.25.4"
+          },
+          {
+            "name": "Emby.Notifications",
+            "version": "4.9.3"
+          },
+          {
+            "name": "Grynwald.MarkdownGenerator",
+            "version": "2.5.34"
+          },
+          {
+            "name": "Grynwald.XmlDocs",
+            "version": "10.1.16"
+          },
+          {
+            "name": "Grynwald.XmlDocs.MarkdownRenderer",
+            "version": "10.1.16"
+          },
+          {
+            "name": "Humanizer.Core",
+            "version": "2.14.1"
+          },
+          {
+            "name": "Microsoft.ApplicationInsights",
+            "version": "2.21.0"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.freebsd-x64",
+            "version": "8.0.20"
+          },
+          {
+            "name": "Microsoft.AspNetCore.DeveloperCertificates.XPlat",
+            "version": "8.0.20-servicing.25420.2"
+          },
+          {
+            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions",
+            "version": "7.0.0-preview.25377.8"
+          },
+          {
+            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
+            "version": "7.0.0-preview.25377.8"
+          },
+          {
+            "name": "Microsoft.Bcl.AsyncInterfaces",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Build",
+            "version": "17.8.36"
+          },
+          {
+            "name": "Microsoft.Build.Framework",
+            "version": "17.8.36"
+          },
+          {
+            "name": "Microsoft.Build.Locator",
+            "version": "1.6.10"
+          },
+          {
+            "name": "Microsoft.Build.NuGetSdkResolver",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "Microsoft.Build.Tasks.CodeAnalysis",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.Build.Tasks.Core",
+            "version": "17.8.36"
+          },
+          {
+            "name": "Microsoft.Build.Utilities.Core",
+            "version": "17.8.36"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.AnalyzerUtilities",
+            "version": "3.11.0"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.CSharp",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.CSharp.Features",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Common",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Features",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Razor.Tooling.Internal",
+            "version": "7.0.0-preview.25377.8"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Scripting.Common",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.VisualBasic",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.VisualBasic.Features",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Workspaces.Common",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.Css.Parser",
+            "version": "1.0.0-20230414.1"
+          },
+          {
+            "name": "Microsoft.Deployment.DotNet.Releases",
+            "version": "2.0.0-rtm.1.25064.1"
+          },
+          {
+            "name": "Microsoft.DiaSymReader",
+            "version": "2.1.0"
+          },
+          {
+            "name": "Microsoft.DotNet.Cli.Sln.Internal",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "Microsoft.DotNet.Cli.Utils",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.Abstractions",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.Binder",
+            "version": "8.0.2"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.FileExtensions",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.Json",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.UserSecrets",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyInjection",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+            "version": "8.0.2"
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyModel",
+            "version": "8.0.2"
+          },
+          {
+            "name": "Microsoft.Extensions.Diagnostics",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.FileProviders.Abstractions",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.FileProviders.Physical",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.FileSystemGlobbing",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.Hosting",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Hosting.Abstractions",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Abstractions",
+            "version": "8.0.2"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Configuration",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Console",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Debug",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.EventLog",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.EventSource",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.ObjectPool",
+            "version": "8.0.20"
+          },
+          {
+            "name": "Microsoft.Extensions.Options",
+            "version": "8.0.2"
+          },
+          {
+            "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.Primitives",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.FSharp.Compiler",
+            "version": "12.8.102"
+          },
+          {
+            "name": "Microsoft.IdentityModel.Abstractions",
+            "version": "7.6.2"
+          },
+          {
+            "name": "Microsoft.IdentityModel.JsonWebTokens",
+            "version": "7.6.2"
+          },
+          {
+            "name": "Microsoft.IdentityModel.Logging",
+            "version": "7.6.2"
+          },
+          {
+            "name": "Microsoft.IdentityModel.Tokens",
+            "version": "7.6.2"
+          },
+          {
+            "name": "Microsoft.NET.HostModel",
+            "version": "8.0.20-servicing.25419.14"
+          },
+          {
+            "name": "Microsoft.NET.Sdk.BlazorWebAssembly.Tool",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "Microsoft.NET.Sdk.StaticWebAssets.Tool",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "Microsoft.NET.Sdk.WorkloadMSBuildSdkResolver",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "Microsoft.NET.StringTools",
+            "version": "17.8.36"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.freebsd-x64",
+            "version": "8.0.20"
+          },
+          {
+            "name": "Microsoft.OpenApi",
+            "version": "1.6.22"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Abstractions",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Core",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Core.Contracts",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Edge",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Utils",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateSearch.Common",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TestPlatform.Build",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.TestPlatform.CommunicationUtilities",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.TestPlatform.CrossPlatEngine",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.TestPlatform.Utilities",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.Win32.SystemEvents",
+            "version": "8.0.0"
+          },
+          {
+            "name": "NetVips",
+            "version": "3.0.0"
+          },
+          {
+            "name": "Newtonsoft.Json",
+            "version": "13.0.3"
+          },
+          {
+            "name": "NuGet.Build.Tasks",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Build.Tasks.Console",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.CommandLine.XPlat",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Commands",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Common",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Configuration",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Credentials",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.DependencyResolver.Core",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Frameworks",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.LibraryModel",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Packaging",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Packaging.Core",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.ProjectModel",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Protocol",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Versioning",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "SMBLibrary",
+            "version": "1.5.4.1"
+          },
+          {
+            "name": "ServiceStack.Text.Core",
+            "version": "8.8.0"
+          },
+          {
+            "name": "SharpCompress",
+            "version": "0.33.0"
+          },
+          {
+            "name": "SimpleInjector",
+            "version": "5.5.0"
+          },
+          {
+            "name": "SkiaSharp",
+            "version": "2.88.3"
+          },
+          {
+            "name": "SkiaSharp.NativeAssets.Win32",
+            "version": "2.88.3"
+          },
+          {
+            "name": "SkiaSharp.NativeAssets.macOS",
+            "version": "2.88.3"
+          },
+          {
+            "name": "System.CodeDom",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Collections.Immutable",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.CommandLine",
+            "version": "2.0.0-beta4.23356.1"
+          },
+          {
+            "name": "System.CommandLine.Rendering",
+            "version": "0.4.0-alpha.23356.1"
+          },
+          {
+            "name": "System.Composition.AttributedModel",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Composition.Convention",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Composition.Hosting",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Composition.Runtime",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Composition.TypedParts",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Configuration.ConfigurationManager",
+            "version": "8.0.1"
+          },
+          {
+            "name": "System.Diagnostics.EventLog",
+            "version": "8.0.1"
+          },
+          {
+            "name": "System.IO.Pipelines",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.IdentityModel.Tokens.Jwt",
+            "version": "7.6.2"
+          },
+          {
+            "name": "System.Memory",
+            "version": "4.5.5"
+          },
+          {
+            "name": "System.Net.WebSockets.WebSocketProtocol",
+            "version": "5.1.3"
+          },
+          {
+            "name": "System.Reflection.Metadata",
+            "version": "7.0.0"
+          },
+          {
+            "name": "System.Reflection.MetadataLoadContext",
+            "version": "8.0.1"
+          },
+          {
+            "name": "System.Resources.Extensions",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "version": "6.0.0"
+          },
+          {
+            "name": "System.Security.Cryptography.Pkcs",
+            "version": "8.0.1"
+          },
+          {
+            "name": "System.Security.Cryptography.ProtectedData",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Security.Cryptography.Xml",
+            "version": "8.0.2"
+          },
+          {
+            "name": "System.ServiceProcess.ServiceController",
+            "version": "8.0.1"
+          },
+          {
+            "name": "System.Text.Encoding.CodePages",
+            "version": "7.0.0"
+          },
+          {
+            "name": "System.Threading.Tasks.Extensions",
+            "version": "4.5.4"
+          },
+          {
+            "name": "Valleysoft.DockerCredsProvider",
+            "version": "2.2.4"
+          },
+          {
+            "name": "dotnet-dev-certs",
+            "version": "8.0.20-servicing.25420.2"
+          },
+          {
+            "name": "dotnet-format",
+            "version": "8.1.631901"
+          },
+          {
+            "name": "dotnet-user-jwts",
+            "version": "8.0.20-servicing.25420.2"
+          },
+          {
+            "name": "dotnet-user-secrets",
+            "version": "8.0.20-servicing.25420.2"
+          },
+          {
+            "name": "dotnet-watch",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "microsoft.dotnet.templateLocator",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "rzc",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "tool_fsc",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "vbc",
+            "version": "4.8.0-7.25056.18"
+          }
+        ],
+        "freebsd": [
+          {
+            "name": "FreeBSD-audit-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-blocklist",
+            "version": "15.0p3"
+          },
+          {
+            "name": "FreeBSD-bzip2-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-certctl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-clibs",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-clibs-lib32",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-ctf-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-devmatch",
+            "version": "15.0p2"
+          },
+          {
+            "name": "FreeBSD-fetch",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-kerberos-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libarchive",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libbsdstat",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libcasper",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libexecinfo",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libldns",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libmagic",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libucl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-mtree",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-ncurses-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-openssl",
+            "version": "15.0p2"
+          },
+          {
+            "name": "FreeBSD-openssl-lib",
+            "version": "15.0p2"
+          },
+          {
+            "name": "FreeBSD-pkg-bootstrap",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-rc",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-runtime",
+            "version": "15.0p8"
+          },
+          {
+            "name": "FreeBSD-tcpd",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-ufs-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-utilities",
+            "version": "15.0p1"
+          },
+          {
+            "name": "FreeBSD-xz-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-zfs-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-zlib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-zoneinfo",
+            "version": "15.0p7"
+          },
+          {
+            "name": "Imath",
+            "version": "3.2.2_2"
+          },
+          {
+            "name": "aom",
+            "version": "3.13.3"
+          },
+          {
+            "name": "aribb24",
+            "version": "1.0.4"
+          },
+          {
+            "name": "bash",
+            "version": "5.3.9"
+          },
+          {
+            "name": "binutils",
+            "version": "2.44,1"
+          },
+          {
+            "name": "boost-libs",
+            "version": "1.89.0_2"
+          },
+          {
+            "name": "brotli",
+            "version": "1.2.0,1"
+          },
+          {
+            "name": "ca_root_nss",
+            "version": "3.123.1"
+          },
+          {
+            "name": "cairo",
+            "version": "1.18.2,3"
+          },
+          {
+            "name": "chromaprint",
+            "version": "1.6.0_1"
+          },
+          {
+            "name": "cmrtlib",
+            "version": "20.1.1"
+          },
+          {
+            "name": "curl",
+            "version": "8.20.0"
+          },
+          {
+            "name": "dav1d",
+            "version": "1.5.3_1"
+          },
+          {
+            "name": "dotnet-host",
+            "version": "9.0.14"
+          },
+          {
+            "name": "dotnet8",
+            "version": "8.0.20"
+          },
+          {
+            "name": "emby-server",
+            "version": "4.9.3.0"
+          },
+          {
+            "name": "execline",
+            "version": "2.9.8.1"
+          },
+          {
+            "name": "expat",
+            "version": "2.8.1"
+          },
+          {
+            "name": "ffmpeg",
+            "version": "8.1,1"
+          },
+          {
+            "name": "fftw3",
+            "version": "3.3.10_5"
+          },
+          {
+            "name": "fontconfig",
+            "version": "2.17.1,1"
+          },
+          {
+            "name": "freetype2",
+            "version": "2.14.3"
+          },
+          {
+            "name": "fribidi",
+            "version": "1.0.16"
+          },
+          {
+            "name": "gcc14",
+            "version": "14.2.0_4"
+          },
+          {
+            "name": "gdk-pixbuf2",
+            "version": "2.44.1"
+          },
+          {
+            "name": "gettext-runtime",
+            "version": "1.0"
+          },
+          {
+            "name": "giflib",
+            "version": "5.2.2"
+          },
+          {
+            "name": "glib",
+            "version": "2.84.4,2"
+          },
+          {
+            "name": "gmp",
+            "version": "6.3.0"
+          },
+          {
+            "name": "gnutls",
+            "version": "3.8.13"
+          },
+          {
+            "name": "graphite2",
+            "version": "1.3.14"
+          },
+          {
+            "name": "harfbuzz",
+            "version": "13.2.1"
+          },
+          {
+            "name": "highway",
+            "version": "1.3.0"
+          },
+          {
+            "name": "hwdata",
+            "version": "0.405,1"
+          },
+          {
+            "name": "icu",
+            "version": "76.1,1"
+          },
+          {
+            "name": "indexinfo",
+            "version": "0.3.1_1"
+          },
+          {
+            "name": "intel-media-sdk",
+            "version": "22.5.4"
+          },
+          {
+            "name": "jbigkit",
+            "version": "2.1_3"
+          },
+          {
+            "name": "jpeg-turbo",
+            "version": "3.1.4.1"
+          },
+          {
+            "name": "jq",
+            "version": "1.8.1"
+          },
+          {
+            "name": "krb5",
+            "version": "1.22.1"
+          },
+          {
+            "name": "lame",
+            "version": "3.100_5"
+          },
+          {
+            "name": "lcms2",
+            "version": "2.19"
+          },
+          {
+            "name": "leptonica",
+            "version": "1.87.0"
+          },
+          {
+            "name": "lerc",
+            "version": "4.0.0"
+          },
+          {
+            "name": "libX11",
+            "version": "1.8.13,1"
+          },
+          {
+            "name": "libXScrnSaver",
+            "version": "1.2.4_1"
+          },
+          {
+            "name": "libXau",
+            "version": "1.0.12"
+          },
+          {
+            "name": "libXcursor",
+            "version": "1.2.3"
+          },
+          {
+            "name": "libXdamage",
+            "version": "1.1.6"
+          },
+          {
+            "name": "libXdmcp",
+            "version": "1.1.5"
+          },
+          {
+            "name": "libXext",
+            "version": "1.3.6,1"
+          },
+          {
+            "name": "libXfixes",
+            "version": "6.0.1"
+          },
+          {
+            "name": "libXft",
+            "version": "2.3.8"
+          },
+          {
+            "name": "libXi",
+            "version": "1.8.2,1"
+          },
+          {
+            "name": "libXrandr",
+            "version": "1.5.4"
+          },
+          {
+            "name": "libXrender",
+            "version": "0.9.12"
+          },
+          {
+            "name": "libXv",
+            "version": "1.0.13,1"
+          },
+          {
+            "name": "libXxf86vm",
+            "version": "1.1.6"
+          },
+          {
+            "name": "libarchive",
+            "version": "3.8.5,1"
+          },
+          {
+            "name": "libass",
+            "version": "0.17.4"
+          },
+          {
+            "name": "libbluray",
+            "version": "1.4.1,1"
+          },
+          {
+            "name": "libdatrie",
+            "version": "0.2.14_1"
+          },
+          {
+            "name": "libdeflate",
+            "version": "1.25"
+          },
+          {
+            "name": "libdrm",
+            "version": "2.4.131,1"
+          },
+          {
+            "name": "libdvdnav",
+            "version": "7.0.0"
+          },
+          {
+            "name": "libdvdread",
+            "version": "7.0.0"
+          },
+          {
+            "name": "libedit",
+            "version": "3.1.20251016_1,1"
+          },
+          {
+            "name": "libepoll-shim",
+            "version": "0.0.20240608"
+          },
+          {
+            "name": "libexif",
+            "version": "0.6.26"
+          },
+          {
+            "name": "libffi",
+            "version": "3.5.1"
+          },
+          {
+            "name": "libglvnd",
+            "version": "1.7.0"
+          },
+          {
+            "name": "libheif",
+            "version": "1.21.2_2"
+          },
+          {
+            "name": "libiconv",
+            "version": "1.18_1"
+          },
+          {
+            "name": "libidn2",
+            "version": "2.3.8"
+          },
+          {
+            "name": "libimagequant",
+            "version": "4.4.1_3"
+          },
+          {
+            "name": "libinotify",
+            "version": "20240724_3"
+          },
+          {
+            "name": "libjxl",
+            "version": "0.11.2"
+          },
+          {
+            "name": "liblz4",
+            "version": "1.10.0_2,1"
+          },
+          {
+            "name": "libnghttp2",
+            "version": "1.68.1"
+          },
+          {
+            "name": "libogg",
+            "version": "1.3.6,4"
+          },
+          {
+            "name": "libpciaccess",
+            "version": "0.18.1_1"
+          },
+          {
+            "name": "libplacebo",
+            "version": "7.360.1"
+          },
+          {
+            "name": "libpsl",
+            "version": "0.21.5_2"
+          },
+          {
+            "name": "libraw",
+            "version": "0.21.5_1"
+          },
+          {
+            "name": "librsvg2-rust",
+            "version": "2.62.0_1"
+          },
+          {
+            "name": "libssh2",
+            "version": "1.11.1,3"
+          },
+          {
+            "name": "libtasn1",
+            "version": "4.21.0"
+          },
+          {
+            "name": "libthai",
+            "version": "0.1.30"
+          },
+          {
+            "name": "libtheora",
+            "version": "1.2.0_1"
+          },
+          {
+            "name": "libudev-devd",
+            "version": "0.6.0"
+          },
+          {
+            "name": "libudfread",
+            "version": "1.2.0"
+          },
+          {
+            "name": "libunibreak",
+            "version": "6.1,1"
+          },
+          {
+            "name": "libunicode",
+            "version": "0.4_13"
+          },
+          {
+            "name": "libunistring",
+            "version": "1.4.2"
+          },
+          {
+            "name": "libunwind",
+            "version": "20250904"
+          },
+          {
+            "name": "libv4l",
+            "version": "1.23.0_5"
+          },
+          {
+            "name": "libva",
+            "version": "2.23.0"
+          },
+          {
+            "name": "libvdpau",
+            "version": "1.5"
+          },
+          {
+            "name": "libvorbis",
+            "version": "1.3.7_2,3"
+          },
+          {
+            "name": "libvpx",
+            "version": "1.16.0"
+          },
+          {
+            "name": "libx264",
+            "version": "0.164.3095"
+          },
+          {
+            "name": "libxcb",
+            "version": "1.17.0"
+          },
+          {
+            "name": "libxkbcommon",
+            "version": "1.13.1"
+          },
+          {
+            "name": "libxml2",
+            "version": "2.15.2"
+          },
+          {
+            "name": "libxshmfence",
+            "version": "1.3.3"
+          },
+          {
+            "name": "libzvbi",
+            "version": "0.2.44_1"
+          },
+          {
+            "name": "lzo2",
+            "version": "2.10_1"
+          },
+          {
+            "name": "mesa-libs",
+            "version": "24.1.7_1"
+          },
+          {
+            "name": "mpc",
+            "version": "1.4.0"
+          },
+          {
+            "name": "mpdecimal",
+            "version": "4.0.1"
+          },
+          {
+            "name": "mpfr",
+            "version": "4.2.2,1"
+          },
+          {
+            "name": "nettle",
+            "version": "3.10.2"
+          },
+          {
+            "name": "ocl-icd",
+            "version": "2.3.4"
+          },
+          {
+            "name": "oniguruma",
+            "version": "6.9.10"
+          },
+          {
+            "name": "openblas",
+            "version": "0.3.30,2"
+          },
+          {
+            "name": "openexr",
+            "version": "3.4.11"
+          },
+          {
+            "name": "openh264",
+            "version": "2.6.0,2"
+          },
+          {
+            "name": "openjpeg",
+            "version": "2.5.4_2"
+          },
+          {
+            "name": "openjph",
+            "version": "0.26.3"
+          },
+          {
+            "name": "opus",
+            "version": "1.6.1"
+          },
+          {
+            "name": "orc",
+            "version": "0.4.42"
+          },
+          {
+            "name": "p11-kit",
+            "version": "0.26.2"
+          },
+          {
+            "name": "pango",
+            "version": "1.56.4_1"
+          },
+          {
+            "name": "pcre2",
+            "version": "10.47_1"
+          },
+          {
+            "name": "pixman",
+            "version": "0.46.2"
+          },
+          {
+            "name": "pkg",
+            "version": "2.6.2_1"
+          },
+          {
+            "name": "png",
+            "version": "1.6.57"
+          },
+          {
+            "name": "py311-boost-libs",
+            "version": "1.89.0"
+          },
+          {
+            "name": "py311-numpy",
+            "version": "1.26.4_12,1"
+          },
+          {
+            "name": "py311-packaging",
+            "version": "26.0"
+          },
+          {
+            "name": "python311",
+            "version": "3.11.15_2"
+          },
+          {
+            "name": "readline",
+            "version": "8.3.3"
+          },
+          {
+            "name": "s6",
+            "version": "2.14.0.1"
+          },
+          {
+            "name": "sdl2",
+            "version": "2.32.10"
+          },
+          {
+            "name": "shaderc",
+            "version": "2026.1"
+          },
+          {
+            "name": "shared-mime-info",
+            "version": "2.4_2"
+          },
+          {
+            "name": "skalibs",
+            "version": "2.14.5.1"
+          },
+          {
+            "name": "sqlite3",
+            "version": "3.50.4_2,1"
+          },
+          {
+            "name": "srt",
+            "version": "1.5.4"
+          },
+          {
+            "name": "suitesparse-amd",
+            "version": "3.3.4"
+          },
+          {
+            "name": "suitesparse-camd",
+            "version": "3.3.5"
+          },
+          {
+            "name": "suitesparse-ccolamd",
+            "version": "3.3.5"
+          },
+          {
+            "name": "suitesparse-cholmod",
+            "version": "5.3.4"
+          },
+          {
+            "name": "suitesparse-colamd",
+            "version": "3.3.5"
+          },
+          {
+            "name": "suitesparse-config",
+            "version": "7.12.2"
+          },
+          {
+            "name": "suitesparse-umfpack",
+            "version": "6.3.7"
+          },
+          {
+            "name": "svt-av1",
+            "version": "4.1.0"
+          },
+          {
+            "name": "terminfo-db",
+            "version": "20250719"
+          },
+          {
+            "name": "tesseract",
+            "version": "5.5.2_1"
+          },
+          {
+            "name": "tesseract-data",
+            "version": "4.1.0"
+          },
+          {
+            "name": "tiff",
+            "version": "4.7.1_1"
+          },
+          {
+            "name": "vmaf",
+            "version": "3.0.0"
+          },
+          {
+            "name": "vulkan-loader",
+            "version": "1.4.336"
+          },
+          {
+            "name": "wayland",
+            "version": "1.24.0_2"
+          },
+          {
+            "name": "webp",
+            "version": "1.6.0"
+          },
+          {
+            "name": "x265",
+            "version": "4.1"
+          },
+          {
+            "name": "xkeyboard-config",
+            "version": "2.41_4"
+          },
+          {
+            "name": "xorgproto",
+            "version": "2024.1"
+          },
+          {
+            "name": "xxhash",
+            "version": "0.8.3"
+          },
+          {
+            "name": "zstd",
+            "version": "1.5.7_1"
+          }
+        ],
+        "go": [],
+        "java": [],
+        "node": [
+          {
+            "name": "MathJax-grunt-cleaner",
+            "version": "0.1.0"
+          }
+        ],
+        "php": [],
+        "python": [
+          {
+            "name": "example",
+            "version": "21.12"
+          },
+          {
+            "name": "numpy",
+            "version": "1.26.4"
+          },
+          {
+            "name": "packaging",
+            "version": "26.0"
+          }
+        ],
+        "ruby": [],
+        "rust": []
+      },
+      "source": "pkg",
+      "summary": {
+        "dotnet": 149,
+        "freebsd": 192,
+        "go": 0,
+        "java": 0,
+        "node": 1,
+        "php": 0,
+        "python": 3,
+        "ruby": 0,
+        "rust": 0,
+        "total": 345
+      }
+    },
+    "pkg-latest": {
+      "app_version": "4.9.3.0",
+      "arch": "amd64",
+      "generated": "2026-05-22T21:55:33Z",
+      "packages": {
+        "dotnet": [
+          {
+            "name": "Emby.FFmpegBinaries.Mac",
+            "version": "2023.6.25.4"
+          },
+          {
+            "name": "Emby.FFmpegBinaries.Windows",
+            "version": "2023.6.25.4"
+          },
+          {
+            "name": "Emby.LiveTV",
+            "version": "4.9.3"
+          },
+          {
+            "name": "Grynwald.MarkdownGenerator",
+            "version": "2.5.34"
+          },
+          {
+            "name": "Grynwald.XmlDocs",
+            "version": "10.1.16"
+          },
+          {
+            "name": "Grynwald.XmlDocs.MarkdownRenderer",
+            "version": "10.1.16"
+          },
+          {
+            "name": "Humanizer.Core",
+            "version": "2.14.1"
+          },
+          {
+            "name": "Microsoft.ApplicationInsights",
+            "version": "2.21.0"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.freebsd-x64",
+            "version": "8.0.20"
+          },
+          {
+            "name": "Microsoft.AspNetCore.DeveloperCertificates.XPlat",
+            "version": "8.0.20-servicing.25420.2"
+          },
+          {
+            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
+            "version": "7.0.0-preview.25377.8"
+          },
+          {
+            "name": "Microsoft.Bcl.AsyncInterfaces",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Build",
+            "version": "17.8.36"
+          },
+          {
+            "name": "Microsoft.Build.Framework",
+            "version": "17.8.36"
+          },
+          {
+            "name": "Microsoft.Build.Locator",
+            "version": "1.6.10"
+          },
+          {
+            "name": "Microsoft.Build.NuGetSdkResolver",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "Microsoft.Build.Tasks.CodeAnalysis",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.Build.Tasks.Core",
+            "version": "17.8.36"
+          },
+          {
+            "name": "Microsoft.Build.Utilities.Core",
+            "version": "17.8.36"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.AnalyzerUtilities",
+            "version": "3.11.0"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.CSharp",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.CSharp.Features",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Common",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Features",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Razor.Tooling.Internal",
+            "version": "7.0.0-preview.25377.8"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Scripting.Common",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.VisualBasic",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.VisualBasic.Features",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.VisualBasic.Workspaces",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Workspaces.Common",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
+            "name": "Microsoft.Css.Parser",
+            "version": "1.0.0-20230414.1"
+          },
+          {
+            "name": "Microsoft.Deployment.DotNet.Releases",
+            "version": "2.0.0-rtm.1.25064.1"
+          },
+          {
+            "name": "Microsoft.DiaSymReader",
+            "version": "2.1.0"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.Abstractions",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.Binder",
+            "version": "8.0.2"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.FileExtensions",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.Json",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Configuration.UserSecrets",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyInjection",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+            "version": "8.0.2"
+          },
+          {
+            "name": "Microsoft.Extensions.DependencyModel",
+            "version": "8.0.2"
+          },
+          {
+            "name": "Microsoft.Extensions.Diagnostics",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.FileProviders.Abstractions",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.FileProviders.Physical",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.FileSystemGlobbing",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.Hosting",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Hosting.Abstractions",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Abstractions",
+            "version": "8.0.2"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Configuration",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Console",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.Debug",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.EventLog",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.Logging.EventSource",
+            "version": "8.0.1"
+          },
+          {
+            "name": "Microsoft.Extensions.ObjectPool",
+            "version": "8.0.20"
+          },
+          {
+            "name": "Microsoft.Extensions.Options",
+            "version": "8.0.2"
+          },
+          {
+            "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.Extensions.Primitives",
+            "version": "8.0.0"
+          },
+          {
+            "name": "Microsoft.FSharp.Compiler",
+            "version": "12.8.102"
+          },
+          {
+            "name": "Microsoft.IdentityModel.Abstractions",
+            "version": "7.6.2"
+          },
+          {
+            "name": "Microsoft.IdentityModel.JsonWebTokens",
+            "version": "7.6.2"
+          },
+          {
+            "name": "Microsoft.IdentityModel.Logging",
+            "version": "7.6.2"
+          },
+          {
+            "name": "Microsoft.IdentityModel.Tokens",
+            "version": "7.6.2"
+          },
+          {
+            "name": "Microsoft.NET.Build.Containers",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "Microsoft.NET.HostModel",
+            "version": "8.0.20-servicing.25419.14"
+          },
+          {
+            "name": "Microsoft.NET.Sdk.BlazorWebAssembly.Tool",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "Microsoft.NET.Sdk.Razor.SourceGenerators",
+            "version": "7.0.0-preview.25377.8"
+          },
+          {
+            "name": "Microsoft.NET.Sdk.StaticWebAssets.Tool",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "Microsoft.NET.StringTools",
+            "version": "17.8.36"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.freebsd-x64",
+            "version": "8.0.20"
+          },
+          {
+            "name": "Microsoft.OpenApi",
+            "version": "1.6.22"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Abstractions",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Core",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Core.Contracts",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Edge",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Utils",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TemplateSearch.Common",
+            "version": "8.0.120"
+          },
+          {
+            "name": "Microsoft.TestPlatform.Build",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.TestPlatform.PlatformAbstractions",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.TestPlatform.Utilities",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.VisualStudio.TestPlatform.Common",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.Win32.SystemEvents",
+            "version": "8.0.0"
+          },
+          {
+            "name": "NetVips",
+            "version": "3.0.0"
+          },
+          {
+            "name": "Newtonsoft.Json",
+            "version": "13.0.3"
+          },
+          {
+            "name": "NuGet.Build.Tasks",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Build.Tasks.Console",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.CommandLine.XPlat",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Commands",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Common",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Configuration",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Credentials",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.DependencyResolver.Core",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Frameworks",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.LibraryModel",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Packaging",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Packaging.Core",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.ProjectModel",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Protocol",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "NuGet.Versioning",
+            "version": "6.8.1-rc.32767"
+          },
+          {
+            "name": "SMBLibrary",
+            "version": "1.5.4.1"
+          },
+          {
+            "name": "ServiceStack.Text.Core",
+            "version": "8.8.0"
+          },
+          {
+            "name": "SharpCompress",
+            "version": "0.33.0"
+          },
+          {
+            "name": "SimpleInjector",
+            "version": "5.5.0"
+          },
+          {
+            "name": "SkiaSharp",
+            "version": "2.88.3"
+          },
+          {
+            "name": "SkiaSharp.NativeAssets.Win32",
+            "version": "2.88.3"
+          },
+          {
+            "name": "SkiaSharp.NativeAssets.macOS",
+            "version": "2.88.3"
+          },
+          {
+            "name": "System.CodeDom",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Collections.Immutable",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.CommandLine",
+            "version": "2.0.0-beta4.23356.1"
+          },
+          {
+            "name": "System.CommandLine.Rendering",
+            "version": "0.4.0-alpha.23356.1"
+          },
+          {
+            "name": "System.Composition.AttributedModel",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Composition.Convention",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Composition.Hosting",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Composition.Runtime",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Composition.TypedParts",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Configuration.ConfigurationManager",
+            "version": "8.0.1"
+          },
+          {
+            "name": "System.Diagnostics.EventLog",
+            "version": "8.0.1"
+          },
+          {
+            "name": "System.IO.Pipelines",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.IdentityModel.Tokens.Jwt",
+            "version": "7.6.2"
+          },
+          {
+            "name": "System.Memory",
+            "version": "4.5.5"
+          },
+          {
+            "name": "System.Net.WebSockets.WebSocketProtocol",
+            "version": "5.1.3"
+          },
+          {
+            "name": "System.Reflection.Metadata",
+            "version": "7.0.0"
+          },
+          {
+            "name": "System.Reflection.MetadataLoadContext",
+            "version": "8.0.1"
+          },
+          {
+            "name": "System.Resources.Extensions",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "version": "6.0.0"
+          },
+          {
+            "name": "System.Security.Cryptography.Pkcs",
+            "version": "8.0.1"
+          },
+          {
+            "name": "System.Security.Cryptography.ProtectedData",
+            "version": "8.0.0"
+          },
+          {
+            "name": "System.Security.Cryptography.Xml",
+            "version": "8.0.2"
+          },
+          {
+            "name": "System.ServiceProcess.ServiceController",
+            "version": "8.0.1"
+          },
+          {
+            "name": "System.Text.Encoding.CodePages",
+            "version": "7.0.0"
+          },
+          {
+            "name": "System.Threading.Tasks.Extensions",
+            "version": "4.5.4"
+          },
+          {
+            "name": "Valleysoft.DockerCredsProvider",
+            "version": "2.2.4"
+          },
+          {
+            "name": "dotnet-dev-certs",
+            "version": "8.0.20-servicing.25420.2"
+          },
+          {
+            "name": "dotnet-format",
+            "version": "8.1.631901"
+          },
+          {
+            "name": "dotnet-user-jwts",
+            "version": "8.0.20-servicing.25420.2"
+          },
+          {
+            "name": "dotnet-user-secrets",
+            "version": "8.0.20-servicing.25420.2"
+          },
+          {
+            "name": "dotnet-watch",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "microsoft.dotnet.templateLocator",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "rzc",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "tool_fsc",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "tool_msbuild",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "tool_nuget",
+            "version": "8.0.120-servicing.25421.8"
+          }
+        ],
+        "freebsd": [
+          {
+            "name": "FreeBSD-audit-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-blocklist",
+            "version": "15.0p3"
+          },
+          {
+            "name": "FreeBSD-bzip2-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-certctl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-clibs",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-clibs-lib32",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-ctf-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-devmatch",
+            "version": "15.0p2"
+          },
+          {
+            "name": "FreeBSD-fetch",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-kerberos-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libarchive",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libbsdstat",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libcasper",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libexecinfo",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libldns",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libmagic",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libucl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-mtree",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-ncurses-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-openssl",
+            "version": "15.0p2"
+          },
+          {
+            "name": "FreeBSD-openssl-lib",
+            "version": "15.0p2"
+          },
+          {
+            "name": "FreeBSD-pkg-bootstrap",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-rc",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-runtime",
+            "version": "15.0p8"
+          },
+          {
+            "name": "FreeBSD-tcpd",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-ufs-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-utilities",
+            "version": "15.0p1"
+          },
+          {
+            "name": "FreeBSD-xz-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-zfs-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-zlib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-zoneinfo",
+            "version": "15.0p7"
+          },
+          {
+            "name": "Imath",
+            "version": "3.2.2_4"
+          },
+          {
+            "name": "aom",
+            "version": "3.14.0"
+          },
+          {
+            "name": "aribb24",
+            "version": "1.0.4"
+          },
+          {
+            "name": "bash",
+            "version": "5.3.9"
+          },
+          {
+            "name": "binutils",
+            "version": "2.44,1"
+          },
+          {
+            "name": "boost-libs",
+            "version": "1.89.0_2"
+          },
+          {
+            "name": "brotli",
+            "version": "1.2.0,1"
+          },
+          {
+            "name": "ca_root_nss",
+            "version": "3.123.1"
+          },
+          {
+            "name": "cairo",
+            "version": "1.18.2,3"
+          },
+          {
+            "name": "chromaprint",
+            "version": "1.6.0_1"
+          },
+          {
+            "name": "cmrtlib",
+            "version": "20.1.1"
+          },
+          {
+            "name": "curl",
+            "version": "8.20.0"
+          },
+          {
+            "name": "dav1d",
+            "version": "1.5.3_1"
+          },
+          {
+            "name": "dotnet-host",
+            "version": "9.0.14"
+          },
+          {
+            "name": "dotnet8",
+            "version": "8.0.20"
+          },
+          {
+            "name": "emby-server",
+            "version": "4.9.3.0"
+          },
+          {
+            "name": "execline",
+            "version": "2.9.8.1"
+          },
+          {
+            "name": "expat",
+            "version": "2.8.1"
+          },
+          {
+            "name": "ffmpeg",
+            "version": "8.1.1,1"
+          },
+          {
+            "name": "fftw3",
+            "version": "3.3.10_5"
+          },
+          {
+            "name": "fontconfig",
+            "version": "2.17.1,1"
+          },
+          {
+            "name": "freetype2",
+            "version": "2.14.3"
+          },
+          {
+            "name": "fribidi",
+            "version": "1.0.16"
+          },
+          {
+            "name": "gcc14",
+            "version": "14.2.0_4"
+          },
+          {
+            "name": "gdk-pixbuf2",
+            "version": "2.44.1"
+          },
+          {
+            "name": "gettext-runtime",
+            "version": "1.0_1"
+          },
+          {
+            "name": "giflib",
+            "version": "5.2.2"
+          },
+          {
+            "name": "glib",
+            "version": "2.86.4,2"
+          },
+          {
+            "name": "gmp",
+            "version": "6.3.0"
+          },
+          {
+            "name": "gnutls",
+            "version": "3.8.13"
+          },
+          {
+            "name": "graphite2",
+            "version": "1.3.14"
+          },
+          {
+            "name": "harfbuzz",
+            "version": "13.2.1"
+          },
+          {
+            "name": "highway",
+            "version": "1.4.0"
+          },
+          {
+            "name": "hwdata",
+            "version": "0.407,1"
+          },
+          {
+            "name": "icu",
+            "version": "76.1,1"
+          },
+          {
+            "name": "indexinfo",
+            "version": "0.3.1_1"
+          },
+          {
+            "name": "intel-media-sdk",
+            "version": "22.5.4"
+          },
+          {
+            "name": "jbigkit",
+            "version": "2.1_3"
+          },
+          {
+            "name": "jpeg-turbo",
+            "version": "3.1.4.1"
+          },
+          {
+            "name": "jq",
+            "version": "1.8.1"
+          },
+          {
+            "name": "krb5",
+            "version": "1.22.2"
+          },
+          {
+            "name": "lame",
+            "version": "3.100_5"
+          },
+          {
+            "name": "lcms2",
+            "version": "2.19.1"
+          },
+          {
+            "name": "leptonica",
+            "version": "1.87.0"
+          },
+          {
+            "name": "lerc",
+            "version": "4.1.0"
+          },
+          {
+            "name": "libX11",
+            "version": "1.8.13_1,1"
+          },
+          {
+            "name": "libXScrnSaver",
+            "version": "1.2.4_1"
+          },
+          {
+            "name": "libXau",
+            "version": "1.0.12"
+          },
+          {
+            "name": "libXcursor",
+            "version": "1.2.3"
+          },
+          {
+            "name": "libXdamage",
+            "version": "1.1.7"
+          },
+          {
+            "name": "libXdmcp",
+            "version": "1.1.5"
+          },
+          {
+            "name": "libXext",
+            "version": "1.3.7,1"
+          },
+          {
+            "name": "libXfixes",
+            "version": "6.0.1"
+          },
+          {
+            "name": "libXft",
+            "version": "2.3.8"
+          },
+          {
+            "name": "libXi",
+            "version": "1.8.3,1"
+          },
+          {
+            "name": "libXrandr",
+            "version": "1.5.4"
+          },
+          {
+            "name": "libXrender",
+            "version": "0.9.12"
+          },
+          {
+            "name": "libXv",
+            "version": "1.0.13,1"
+          },
+          {
+            "name": "libXxf86vm",
+            "version": "1.1.7"
+          },
+          {
+            "name": "libarchive",
+            "version": "3.8.7,1"
+          },
+          {
+            "name": "libass",
+            "version": "0.17.4"
+          },
+          {
+            "name": "libbluray",
+            "version": "1.4.1,1"
+          },
+          {
+            "name": "libdatrie",
+            "version": "0.2.14_1"
+          },
+          {
+            "name": "libdeflate",
+            "version": "1.25"
+          },
+          {
+            "name": "libdrm",
+            "version": "2.4.133,1"
+          },
+          {
+            "name": "libdvdnav",
+            "version": "7.0.0"
+          },
+          {
+            "name": "libdvdread",
+            "version": "7.0.0"
+          },
+          {
+            "name": "libedit",
+            "version": "3.1.20251016_1,1"
+          },
+          {
+            "name": "libepoll-shim",
+            "version": "0.0.20240608"
+          },
+          {
+            "name": "libexif",
+            "version": "0.6.26"
+          },
+          {
+            "name": "libffi",
+            "version": "3.5.1"
+          },
+          {
+            "name": "libglvnd",
+            "version": "1.7.0"
+          },
+          {
+            "name": "libheif",
+            "version": "1.21.2_3"
+          },
+          {
+            "name": "libiconv",
+            "version": "1.18_1"
+          },
+          {
+            "name": "libidn2",
+            "version": "2.3.8"
+          },
+          {
+            "name": "libimagequant",
+            "version": "4.4.1_4"
+          },
+          {
+            "name": "libinotify",
+            "version": "20240724_3"
+          },
+          {
+            "name": "libjxl",
+            "version": "0.11.2"
+          },
+          {
+            "name": "liblz4",
+            "version": "1.10.0_2,1"
+          },
+          {
+            "name": "libnghttp2",
+            "version": "1.69.0"
+          },
+          {
+            "name": "libogg",
+            "version": "1.3.6,4"
+          },
+          {
+            "name": "libpciaccess",
+            "version": "0.19"
+          },
+          {
+            "name": "libplacebo",
+            "version": "7.360.1"
+          },
+          {
+            "name": "libpsl",
+            "version": "0.21.5_2"
+          },
+          {
+            "name": "libraw",
+            "version": "0.21.5_1"
+          },
+          {
+            "name": "librsvg2-rust",
+            "version": "2.62.0_2"
+          },
+          {
+            "name": "libssh2",
+            "version": "1.11.1,3"
+          },
+          {
+            "name": "libtasn1",
+            "version": "4.21.0"
+          },
+          {
+            "name": "libthai",
+            "version": "0.1.30"
+          },
+          {
+            "name": "libtheora",
+            "version": "1.2.0_1"
+          },
+          {
+            "name": "libudev-devd",
+            "version": "0.6.0"
+          },
+          {
+            "name": "libudfread",
+            "version": "1.2.0"
+          },
+          {
+            "name": "libunibreak",
+            "version": "7.0,1"
+          },
+          {
+            "name": "libunicode",
+            "version": "0.4_13"
+          },
+          {
+            "name": "libunistring",
+            "version": "1.4.2"
+          },
+          {
+            "name": "libunwind",
+            "version": "20250904"
+          },
+          {
+            "name": "libv4l",
+            "version": "1.23.0_5"
+          },
+          {
+            "name": "libva",
+            "version": "2.23.0"
+          },
+          {
+            "name": "libvdpau",
+            "version": "1.5"
+          },
+          {
+            "name": "libvorbis",
+            "version": "1.3.7_2,3"
+          },
+          {
+            "name": "libvpx",
+            "version": "1.16.0"
+          },
+          {
+            "name": "libx264",
+            "version": "0.164.3095"
+          },
+          {
+            "name": "libxcb",
+            "version": "1.17.0"
+          },
+          {
+            "name": "libxkbcommon",
+            "version": "1.13.1"
+          },
+          {
+            "name": "libxml2",
+            "version": "2.15.3"
+          },
+          {
+            "name": "libxshmfence",
+            "version": "1.3.3"
+          },
+          {
+            "name": "libzvbi",
+            "version": "0.2.44_1"
+          },
+          {
+            "name": "lzo2",
+            "version": "2.10_2"
+          },
+          {
+            "name": "mesa-libs",
+            "version": "24.1.7_1"
+          },
+          {
+            "name": "mpc",
+            "version": "1.4.1"
+          },
+          {
+            "name": "mpdecimal",
+            "version": "4.0.1"
+          },
+          {
+            "name": "mpfr",
+            "version": "4.2.2,1"
+          },
+          {
+            "name": "nettle",
+            "version": "3.10.2"
+          },
+          {
+            "name": "ocl-icd",
+            "version": "2.3.4"
+          },
+          {
+            "name": "oniguruma",
+            "version": "6.9.10"
+          },
+          {
+            "name": "openblas",
+            "version": "0.3.33,2"
+          },
+          {
+            "name": "openexr",
+            "version": "3.4.11"
+          },
+          {
+            "name": "openh264",
+            "version": "2.6.0,2"
+          },
+          {
+            "name": "openjpeg",
+            "version": "2.5.4_2"
+          },
+          {
+            "name": "openjph",
+            "version": "0.27.2"
+          },
+          {
+            "name": "opus",
+            "version": "1.6.1"
+          },
+          {
+            "name": "orc",
+            "version": "0.4.42"
+          },
+          {
+            "name": "p11-kit",
+            "version": "0.26.2"
+          },
+          {
+            "name": "pango",
+            "version": "1.56.4_1"
+          },
+          {
+            "name": "pcre2",
+            "version": "10.47_1"
+          },
+          {
+            "name": "pixman",
+            "version": "0.46.4"
+          },
+          {
+            "name": "pkg",
+            "version": "2.7.5"
+          },
+          {
+            "name": "png",
+            "version": "1.6.58"
+          },
+          {
+            "name": "py311-boost-libs",
+            "version": "1.89.0"
+          },
+          {
+            "name": "py311-numpy",
+            "version": "2.4.4_3,1"
+          },
+          {
+            "name": "py311-packaging",
+            "version": "26.2"
+          },
+          {
+            "name": "python311",
+            "version": "3.11.15_2"
+          },
+          {
+            "name": "readline",
+            "version": "8.3.3"
+          },
+          {
+            "name": "s6",
+            "version": "2.14.0.1"
+          },
+          {
+            "name": "sdl2",
+            "version": "2.32.10_2"
+          },
+          {
+            "name": "shaderc",
+            "version": "2026.2"
+          },
+          {
+            "name": "shared-mime-info",
+            "version": "2.4_2"
+          },
+          {
+            "name": "skalibs",
+            "version": "2.14.5.1"
+          },
+          {
+            "name": "sqlite3",
+            "version": "3.50.4_2,1"
+          },
+          {
+            "name": "srt",
+            "version": "1.5.4"
+          },
+          {
+            "name": "svt-av1",
+            "version": "4.1.0"
+          },
+          {
+            "name": "terminfo-db",
+            "version": "20250719"
+          },
+          {
+            "name": "tesseract",
+            "version": "5.5.2_1"
+          },
+          {
+            "name": "tesseract-data",
+            "version": "4.1.0"
+          },
+          {
+            "name": "tiff",
+            "version": "4.7.1_1"
+          },
+          {
+            "name": "vmaf",
+            "version": "3.1.0"
+          },
+          {
+            "name": "vulkan-loader",
+            "version": "1.4.350.0"
+          },
+          {
+            "name": "wayland",
+            "version": "1.24.0_2"
+          },
+          {
+            "name": "webp",
+            "version": "1.6.0"
+          },
+          {
+            "name": "x265",
+            "version": "4.1"
+          },
+          {
+            "name": "xkeyboard-config",
+            "version": "2.41_4"
+          },
+          {
+            "name": "xorgproto",
+            "version": "2025.1"
+          },
+          {
+            "name": "xxhash",
+            "version": "0.8.3"
+          },
+          {
+            "name": "zstd",
+            "version": "1.5.7_1"
+          }
+        ],
+        "go": [],
+        "java": [],
+        "node": [
+          {
+            "name": "@jupyterlite/app",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-consoles",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-edit",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-lab",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-notebooks",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-repl",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-tree",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/pyodide-kernel-extension",
+            "version": "0.5.2"
+          },
+          {
+            "name": "MathJax-grunt-cleaner",
+            "version": "0.1.0"
+          },
+          {
+            "name": "jupyterlab-jupytext",
+            "version": "1.4.5"
+          },
+          {
+            "name": "jupyterlab_pygments",
+            "version": "0.3.0"
+          }
+        ],
+        "php": [],
+        "python": [
+          {
+            "name": "example",
+            "version": "21.12"
+          },
+          {
+            "name": "numpy",
+            "version": "2.4.4"
+          },
+          {
+            "name": "packaging",
+            "version": "26.2"
+          }
+        ],
+        "ruby": [],
+        "rust": []
+      },
+      "source": "pkg",
+      "summary": {
+        "dotnet": 148,
+        "freebsd": 185,
+        "go": 0,
+        "java": 0,
+        "node": 11,
+        "php": 0,
+        "python": 3,
+        "ruby": 0,
+        "rust": 0,
+        "total": 347
+      }
+    }
+  }
+}
