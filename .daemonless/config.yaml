@@ -14,6 +14,7 @@ build:
 cit:
   mode: screenshot
   port: 8096
+  screenshot_wait: 30
   annotations:
     - "org.freebsd.jail.allow.mlock=true"
 
