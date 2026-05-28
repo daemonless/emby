@@ -10,11 +10,17 @@ build:
       containerfile: Containerfile.pkg
       args:
         BASE_VERSION: "15-latest"
+    - tag: beta
+      containerfile: Containerfile
+      args:
+        UPSTREAM_URL: "https://api.github.com/repos/MediaBrowser/Emby.Releases/releases"
+        UPSTREAM_JQ: "[.[] | select(.prerelease)] | first | .tag_name"
 
 cit:
   mode: screenshot
   port: 8096
-  screenshot_wait: 30
+  ready: "Core startup complete"
+  screenshot_wait: 10
   annotations:
     - "org.freebsd.jail.allow.mlock=true"
 

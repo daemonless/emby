@@ -39,8 +39,8 @@ RUN pkg update && \
     pkg clean -ay && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
 
-# Download and install latest Emby Server from upstream
-RUN VERSION=$(fetch -qo - https://api.github.com/repos/MediaBrowser/Emby.Releases/releases/latest | jq -r .tag_name) && \
+# Download and install Emby Server from upstream
+RUN VERSION=$(fetch -qo - "${UPSTREAM_URL}" | jq -r "${UPSTREAM_JQ}") && \
     fetch -o /tmp/emby-server.pkg \
       "https://github.com/MediaBrowser/Emby.Releases/releases/download/${VERSION}/emby-server-freebsd15_${VERSION}_amd64.pkg" && \
     pkg add /tmp/emby-server.pkg && \

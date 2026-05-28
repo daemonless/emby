@@ -22,9 +22,9 @@ Personal media server with apps on just about every device.
 
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `latest` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
-| `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
+| `latest` / `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
 | `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `beta` | **Upstream Binary**. Built from official release. | Alternative build. |
 
 ## Prerequisites
 
@@ -90,7 +90,7 @@ volumes:
 **Makejail**:
 
 ```
-ARG tag=latest
+ARG tag=pkg
 
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/emby:${tag}
