@@ -5,7 +5,7 @@ x-daemonless:
   icon: ":simple-emby:"
   category: "Media Servers"
   description: "Personal media server with apps on just about every device."
-  upstream_url: "https://api.github.com/repos/MediaBrowser/Emby.Releases/releases/latest"
+  upstream_url: "https://github.com/MediaBrowser/Emby"
   web_url: "https://emby.media/"
   freshports_url: "https://www.freshports.org/multimedia/emby-server/"
   user: "bsd"

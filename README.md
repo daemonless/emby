@@ -15,7 +15,7 @@ Personal media server with apps on just about every device.
 |---|---|
 | **Port** | 8096 |
 | **Registry** | `ghcr.io/daemonless/emby` |
-| **Source** | [https://api.github.com/repos/MediaBrowser/Emby.Releases/releases/latest](https://api.github.com/repos/MediaBrowser/Emby.Releases/releases/latest) |
+| **Source** | [https://github.com/MediaBrowser/Emby](https://github.com/MediaBrowser/Emby) |
 | **Website** | [https://emby.media/](https://emby.media/) |
 
 ## Version Tags

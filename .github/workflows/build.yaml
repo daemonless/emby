@@ -12,5 +12,5 @@ jobs:
   build:
     uses: daemonless/dbuild/.github/workflows/daemonless-build.yaml@main
     with:
-      image_name: emby-server
+      image_name: emby
     secrets: inherit
