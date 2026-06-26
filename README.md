@@ -19,7 +19,6 @@ Personal media server with apps on just about every device.
 | **Website** | [https://emby.media/](https://emby.media/) |
 
 ## Version Tags
-
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `latest` / `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
@@ -27,7 +26,6 @@ Personal media server with apps on just about every device.
 | `beta` | **Upstream Binary**. Built from official release. | Alternative build. |
 
 ## Prerequisites
-
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
@@ -37,26 +35,27 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 ```yaml
 services:
   emby:
-    image: ghcr.io/daemonless/emby:latest
+    image: "ghcr.io/daemonless/emby:latest"
     container_name: emby
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=UTC
+      - PUID=1000  # User ID for the application process
+      - PGID=1000  # Group ID for the application process
+      - TZ=UTC  # Timezone for the container
     volumes:
       - "/path/to/containers/emby:/config"
     ports:
-      - 8096:8096
+      - "8096:8096"
     annotations:
       org.freebsd.jail.allow.mlock: "true"
     restart: unless-stopped
 ```
 
 ### AppJail Director
-
 **.env**:
 
 ```
+# .env
+
 DIRECTOR_PROJECT=emby
 PUID=1000
 PGID=1000
@@ -66,6 +65,8 @@ TZ=UTC
 **appjail-director.yml**:
 
 ```yaml
+# appjail-director.yml
+
 options:
   - virtualnet: ':<random> default'
   - nat:
@@ -74,6 +75,7 @@ services:
     name: emby
     options:
       - container: 'boot args:--pull'
+      - expose: '8096:8096 proto:tcp' \
     oci:
       user: root
       environment:
@@ -90,12 +92,15 @@ volumes:
 **Makejail**:
 
 ```
+# Makejail
+
 ARG tag=pkg
 
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/emby:${tag}
 SET allow.mlock=1
 ```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Podman CLI
 
@@ -110,13 +115,30 @@ podman run -d --name emby \
   ghcr.io/daemonless/emby:latest
 ```
 
+### AppJail
+
+```bash
+appjail oci run -Pd \
+  -o overwrite=force \
+  -o container="args:--pull" \
+  -o virtualnet=":<random> default" \
+  -o nat \
+  -o expose="8096:8096 proto:tcp" \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=UTC \
+  -o fstab="/path/to/containers/emby /config <pseudofs>" \
+  ghcr.io/daemonless/emby:latest emby
+```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
+
 ### Ansible
 
 ```yaml
 - name: Deploy emby
   containers.podman.podman_container:
     name: emby
-    image: ghcr.io/daemonless/emby:latest
+    image: "ghcr.io/daemonless/emby:latest"
     state: started
     restart_policy: always
     env:
@@ -130,6 +152,8 @@ podman run -d --name emby \
     annotation:
       org.freebsd.jail.allow.mlock: "true"
 ```
+
+Access at: `http://localhost:8096`
 
 ## Parameters
 
@@ -155,7 +179,7 @@ podman run -d --name emby \
 
 **Architectures:** amd64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
-**Base:** FreeBSD 15.0
+**Base:** FreeBSD 15.1
 
 ---
 
