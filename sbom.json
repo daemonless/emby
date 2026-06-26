@@ -1,24 +1,24 @@
 {
-  "generated": "2026-06-15T08:48:26Z",
+  "generated": "2026-06-26T23:25:31Z",
   "image": "emby",
   "tags": {
     "beta": {
-      "app_version": "4.10.0.14",
+      "app_version": "4.10.0.16",
       "arch": "amd64",
-      "generated": "2026-06-15T08:45:36Z",
+      "generated": "2026-06-26T23:19:34Z",
       "packages": {
         "dotnet": [
           {
             "name": "Emby.FFmpegBinaries.Mac",
-            "version": "2023.6.25.4"
+            "version": "2023.6.25.5"
           },
           {
             "name": "Emby.FFmpegBinaries.Windows",
-            "version": "2023.6.25.4"
+            "version": "2023.6.25.5"
           },
           {
-            "name": "Emby.Photos",
-            "version": "4.10.0.14"
+            "name": "Emby.Resources",
+            "version": "4.10.0.16"
           },
           {
             "name": "Grynwald.MarkdownGenerator",
@@ -47,10 +47,6 @@
           {
             "name": "Microsoft.AspNetCore.DeveloperCertificates.XPlat",
             "version": "8.0.20-servicing.25420.2"
-          },
-          {
-            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions",
-            "version": "7.0.0-preview.25377.8"
           },
           {
             "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
@@ -117,6 +113,10 @@
             "version": "4.8.0-7.25056.18"
           },
           {
+            "name": "Microsoft.CodeAnalysis.Razor",
+            "version": "7.0.0-preview.25377.8"
+          },
+          {
             "name": "Microsoft.CodeAnalysis.Razor.Tooling.Internal",
             "version": "7.0.0-preview.25377.8"
           },
@@ -157,7 +157,15 @@
             "version": "2.1.0"
           },
           {
+            "name": "Microsoft.DotNet.Cli.Sln.Internal",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
             "name": "Microsoft.DotNet.Cli.Utils",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "Microsoft.DotNet.Configurer",
             "version": "8.0.120-servicing.25421.8"
           },
           {
@@ -289,6 +297,10 @@
             "version": "7.6.2"
           },
           {
+            "name": "Microsoft.NET.Build.Containers",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
             "name": "Microsoft.NET.HostModel",
             "version": "8.0.20-servicing.25419.14"
           },
@@ -315,10 +327,6 @@
           {
             "name": "Microsoft.TemplateEngine.Abstractions",
             "version": "8.0.120"
-          },
-          {
-            "name": "Microsoft.TemplateEngine.Cli",
-            "version": "8.0.120-servicing.25421.8"
           },
           {
             "name": "Microsoft.TemplateEngine.Core",
@@ -349,15 +357,11 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CommunicationUtilities",
+            "name": "Microsoft.TestPlatform.CoreUtilities",
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.ObjectModel",
-            "version": "17.8.0-release-23615-02"
-          },
-          {
-            "name": "Microsoft.TestPlatform.PlatformAbstractions",
+            "name": "Microsoft.TestPlatform.CrossPlatEngine",
             "version": "17.8.0-release-23615-02"
           },
           {
@@ -565,6 +569,10 @@
             "version": "2.2.4"
           },
           {
+            "name": "csc",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
             "name": "dotnet-dev-certs",
             "version": "8.0.20-servicing.25420.2"
           },
@@ -585,142 +593,138 @@
             "version": "8.0.120-servicing.25421.8"
           },
           {
-            "name": "dotnet.deps.json",
-            "version": "8.0.120-servicing.25421.8"
-          },
-          {
             "name": "rzc",
             "version": "8.0.120-servicing.25421.8"
           },
           {
             "name": "tool_fsc",
             "version": "8.0.120-servicing.25421.8"
-          },
-          {
-            "name": "tool_nuget",
-            "version": "8.0.120-servicing.25421.8"
-          },
-          {
-            "name": "vbc",
-            "version": "4.8.0-7.25056.18"
           }
         ],
         "freebsd": [
           {
             "name": "FreeBSD-audit-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-blocklist",
-            "version": "15.0p3"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-bzip2-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-certctl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-clibs",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-ctf-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-fetch",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-kerberos-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libarchive",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libbsdstat",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0p9"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libexecinfo",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libldns",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libmagic",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libucl",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-mtree",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-ncurses-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0p10"
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-rc",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-tcpd",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-ufs-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-xz-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-zlib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0p7"
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
           },
           {
             "name": "brotli",
@@ -752,7 +756,7 @@
           },
           {
             "name": "emby-server",
-            "version": "4.10.0.14_1"
+            "version": "4.10.0.16_1"
           },
           {
             "name": "execline",
@@ -1032,7 +1036,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_4"
           },
           {
             "name": "readline",
@@ -1102,8 +1106,8 @@
       },
       "source": "upstream",
       "summary": {
-        "dotnet": 149,
-        "freebsd": 119,
+        "dotnet": 148,
+        "freebsd": 121,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -1111,13 +1115,13 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 270
+        "total": 271
       }
     },
     "pkg": {
       "app_version": "4.9.3.0",
       "arch": "amd64",
-      "generated": "2026-06-15T08:46:55Z",
+      "generated": "2026-06-26T23:24:19Z",
       "packages": {
         "dotnet": [
           {
@@ -1129,7 +1133,7 @@
             "version": "2023.6.25.4"
           },
           {
-            "name": "Emby.Resources",
+            "name": "Emby.Ffmpeg.Base",
             "version": "4.9.3"
           },
           {
@@ -1269,11 +1273,15 @@
             "version": "2.1.0"
           },
           {
-            "name": "Microsoft.DotNet.Cli",
+            "name": "Microsoft.DotNet.Cli.Sln.Internal",
             "version": "8.0.120-servicing.25421.8"
           },
           {
-            "name": "Microsoft.DotNet.InternalAbstractions",
+            "name": "Microsoft.DotNet.Cli.Utils",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "Microsoft.DotNet.NativeWrapper",
             "version": "8.0.120-servicing.25421.8"
           },
           {
@@ -1405,10 +1413,6 @@
             "version": "7.6.2"
           },
           {
-            "name": "Microsoft.NET.Build.Containers",
-            "version": "8.0.120-servicing.25421.8"
-          },
-          {
             "name": "Microsoft.NET.HostModel",
             "version": "8.0.20-servicing.25419.14"
           },
@@ -1469,16 +1473,8 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CoreUtilities",
+            "name": "Microsoft.TestPlatform.CrossPlatEngine",
             "version": "17.8.0-release-23615-02"
-          },
-          {
-            "name": "Microsoft.TestPlatform.ObjectModel",
-            "version": "17.8.0-release-23615-02"
-          },
-          {
-            "name": "Microsoft.Win32.Msi",
-            "version": "8.0.120-servicing.25421.8"
           },
           {
             "name": "Microsoft.Win32.SystemEvents",
@@ -1681,12 +1677,12 @@
             "version": "4.5.4"
           },
           {
-            "name": "VBCSCompiler",
-            "version": "4.8.0-7.25056.18"
-          },
-          {
             "name": "Valleysoft.DockerCredsProvider",
             "version": "2.2.4"
+          },
+          {
+            "name": "datacollector",
+            "version": "17.8.0-release-23615-02"
           },
           {
             "name": "dotnet-dev-certs",
@@ -1709,6 +1705,10 @@
             "version": "8.0.120-servicing.25421.8"
           },
           {
+            "name": "microsoft.dotnet.templateLocator",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
             "name": "rzc",
             "version": "8.0.120-servicing.25421.8"
           },
@@ -1720,127 +1720,135 @@
         "freebsd": [
           {
             "name": "FreeBSD-audit-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-blocklist",
-            "version": "15.0p3"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-bzip2-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-certctl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-clibs",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-ctf-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-devmatch",
-            "version": "15.0p2"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-fetch",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-kerberos-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libarchive",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libbsdstat",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0p9"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libexecinfo",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libldns",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libmagic",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libucl",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-mtree",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-ncurses-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0p10"
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-rc",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-tcpd",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-ufs-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-xz-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-zlib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0p7"
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
           },
           {
             "name": "Imath",
@@ -1848,7 +1856,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.3"
+            "version": "3.14.1"
           },
           {
             "name": "aribb24",
@@ -2308,7 +2316,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.12"
+            "version": "3.4.13"
           },
           {
             "name": "openh264",
@@ -2368,7 +2376,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_4"
           },
           {
             "name": "readline",
@@ -2515,8 +2523,8 @@
       },
       "source": "pkg",
       "summary": {
-        "dotnet": 149,
-        "freebsd": 192,
+        "dotnet": 148,
+        "freebsd": 194,
         "go": 0,
         "java": 0,
         "node": 1,
@@ -2524,19 +2532,15 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 345
+        "total": 346
       }
     },
     "pkg-latest": {
       "app_version": "4.9.3.0",
       "arch": "amd64",
-      "generated": "2026-06-15T08:47:07Z",
+      "generated": "2026-06-26T23:23:56Z",
       "packages": {
         "dotnet": [
-          {
-            "name": "Emby.ActivityLog",
-            "version": "4.9.3"
-          },
           {
             "name": "Emby.FFmpegBinaries.Mac",
             "version": "2023.6.25.4"
@@ -2544,6 +2548,10 @@
           {
             "name": "Emby.FFmpegBinaries.Windows",
             "version": "2023.6.25.4"
+          },
+          {
+            "name": "Emby.Server.MediaEncoding",
+            "version": "4.9.3"
           },
           {
             "name": "Grynwald.MarkdownGenerator",
@@ -2682,11 +2690,11 @@
             "version": "2.1.0"
           },
           {
-            "name": "Microsoft.DotNet.Cli.Sln.Internal",
+            "name": "Microsoft.DotNet.Cli",
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "Microsoft.DotNet.Cli.Utils",
+            "name": "Microsoft.DotNet.Cli.Sln.Internal",
             "version": "8.0.127-servicing.26230.7"
           },
           {
@@ -2875,6 +2883,10 @@
           },
           {
             "name": "Microsoft.TestPlatform.Build",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.TestPlatform.CommunicationUtilities",
             "version": "17.8.0-release-23615-02"
           },
           {
@@ -3094,10 +3106,6 @@
             "version": "4.8.0-7.25569.25"
           },
           {
-            "name": "datacollector",
-            "version": "17.8.0-release-23615-02"
-          },
-          {
             "name": "dotnet-dev-certs",
             "version": "8.0.27-servicing.26230.8"
           },
@@ -3118,142 +3126,150 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
+            "name": "microsoft.dotnet.templateLocator",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
             "name": "rzc",
             "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "tool_fsc",
             "version": "8.0.127-servicing.26230.7"
-          },
-          {
-            "name": "tool_nuget",
-            "version": "8.0.127-servicing.26230.7"
           }
         ],
         "freebsd": [
           {
             "name": "FreeBSD-audit-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-blocklist",
-            "version": "15.0p3"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-bzip2-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-certctl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-clibs",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-ctf-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-devmatch",
-            "version": "15.0p2"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-fetch",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-kerberos-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libarchive",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libbsdstat",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0p9"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libexecinfo",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libldns",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libmagic",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libucl",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-mtree",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-ncurses-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0p10"
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-rc",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-tcpd",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-ufs-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-xz-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-zlib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0p7"
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
           },
           {
             "name": "Imath",
@@ -3261,7 +3277,7 @@
           },
           {
             "name": "aom",
-            "version": "3.14.0"
+            "version": "3.14.1"
           },
           {
             "name": "aribb24",
@@ -3329,7 +3345,7 @@
           },
           {
             "name": "ffmpeg",
-            "version": "8.1.1,1"
+            "version": "8.1.2,1"
           },
           {
             "name": "fftw3",
@@ -3381,7 +3397,7 @@
           },
           {
             "name": "harfbuzz",
-            "version": "13.2.1"
+            "version": "14.2.1"
           },
           {
             "name": "highway",
@@ -3389,7 +3405,7 @@
           },
           {
             "name": "hwdata",
-            "version": "0.407,1"
+            "version": "0.408,1"
           },
           {
             "name": "icu",
@@ -3512,6 +3528,10 @@
             "version": "1.25"
           },
           {
+            "name": "libdisplay-info",
+            "version": "0.3.0"
+          },
+          {
             "name": "libdrm",
             "version": "2.4.133,1"
           },
@@ -3597,7 +3617,7 @@
           },
           {
             "name": "librsvg2-rust",
-            "version": "2.62.2_1"
+            "version": "2.62.3"
           },
           {
             "name": "libssh2",
@@ -3684,12 +3704,20 @@
             "version": "0.2.44_1"
           },
           {
+            "name": "llvm19",
+            "version": "19.1.7_3"
+          },
+          {
+            "name": "lua53",
+            "version": "5.3.6_1"
+          },
+          {
             "name": "lzo2",
             "version": "2.10_2"
           },
           {
             "name": "mesa-libs",
-            "version": "24.1.7_1"
+            "version": "26.0.6"
           },
           {
             "name": "mpc",
@@ -3721,7 +3749,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.12"
+            "version": "3.4.13"
           },
           {
             "name": "openh264",
@@ -3749,11 +3777,15 @@
           },
           {
             "name": "pango",
-            "version": "1.56.4_1"
+            "version": "1.57.1"
           },
           {
             "name": "pcre2",
             "version": "10.47_1"
+          },
+          {
+            "name": "perl5",
+            "version": "5.42.2"
           },
           {
             "name": "pixman",
@@ -3781,7 +3813,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_4"
           },
           {
             "name": "readline",
@@ -3806,6 +3838,14 @@
           {
             "name": "skalibs",
             "version": "2.14.5.1"
+          },
+          {
+            "name": "spirv-llvm-translator-llvm19",
+            "version": "19.1.19"
+          },
+          {
+            "name": "spirv-tools",
+            "version": "2026.2"
           },
           {
             "name": "sqlite3",
@@ -3941,7 +3981,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 149,
-        "freebsd": 185,
+        "freebsd": 193,
         "go": 0,
         "java": 0,
         "node": 11,
@@ -3949,7 +3989,7 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 348
+        "total": 356
       }
     }
   }
