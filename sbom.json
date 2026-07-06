@@ -1,24 +1,24 @@
 {
-  "generated": "2026-06-26T23:25:31Z",
+  "generated": "2026-07-06T16:34:11Z",
   "image": "emby",
   "tags": {
     "beta": {
-      "app_version": "4.10.0.16",
+      "app_version": "4.10.0.17",
       "arch": "amd64",
-      "generated": "2026-06-26T23:19:34Z",
+      "generated": "2026-07-06T16:27:57Z",
       "packages": {
         "dotnet": [
           {
+            "name": "Emby.Extensions",
+            "version": "4.10.0.17"
+          },
+          {
             "name": "Emby.FFmpegBinaries.Mac",
-            "version": "2023.6.25.5"
+            "version": "2023.6.25.6"
           },
           {
             "name": "Emby.FFmpegBinaries.Windows",
-            "version": "2023.6.25.5"
-          },
-          {
-            "name": "Emby.Resources",
-            "version": "4.10.0.16"
+            "version": "2023.6.25.6"
           },
           {
             "name": "Grynwald.MarkdownGenerator",
@@ -161,11 +161,7 @@
             "version": "8.0.120-servicing.25421.8"
           },
           {
-            "name": "Microsoft.DotNet.Cli.Utils",
-            "version": "8.0.120-servicing.25421.8"
-          },
-          {
-            "name": "Microsoft.DotNet.Configurer",
+            "name": "Microsoft.DotNet.NativeWrapper",
             "version": "8.0.120-servicing.25421.8"
           },
           {
@@ -357,11 +353,11 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CoreUtilities",
+            "name": "Microsoft.TestPlatform.CrossPlatEngine",
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CrossPlatEngine",
+            "name": "Microsoft.VisualStudio.TestPlatform.Client",
             "version": "17.8.0-release-23615-02"
           },
           {
@@ -569,10 +565,6 @@
             "version": "2.2.4"
           },
           {
-            "name": "csc",
-            "version": "4.8.0-7.25056.18"
-          },
-          {
             "name": "dotnet-dev-certs",
             "version": "8.0.20-servicing.25420.2"
           },
@@ -593,12 +585,20 @@
             "version": "8.0.120-servicing.25421.8"
           },
           {
+            "name": "microsoft.dotnet.templateLocator",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
             "name": "rzc",
             "version": "8.0.120-servicing.25421.8"
           },
           {
             "name": "tool_fsc",
             "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "vbc",
+            "version": "4.8.0-7.25056.18"
           }
         ],
         "freebsd": [
@@ -620,7 +620,7 @@
           },
           {
             "name": "FreeBSD-clibs",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-ctf-lib",
@@ -692,7 +692,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -704,7 +704,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -712,7 +712,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-zlib",
@@ -744,7 +744,7 @@
           },
           {
             "name": "curl",
-            "version": "8.20.0"
+            "version": "8.21.0"
           },
           {
             "name": "dotnet-host",
@@ -756,7 +756,7 @@
           },
           {
             "name": "emby-server",
-            "version": "4.10.0.16_1"
+            "version": "4.10.0.17_1"
           },
           {
             "name": "execline",
@@ -1121,7 +1121,7 @@
     "pkg": {
       "app_version": "4.9.3.0",
       "arch": "amd64",
-      "generated": "2026-06-26T23:24:19Z",
+      "generated": "2026-07-06T16:28:50Z",
       "packages": {
         "dotnet": [
           {
@@ -1133,7 +1133,7 @@
             "version": "2023.6.25.4"
           },
           {
-            "name": "Emby.Ffmpeg.Base",
+            "name": "Emby.Server.MediaEncoding",
             "version": "4.9.3"
           },
           {
@@ -1165,11 +1165,11 @@
             "version": "8.0.20-servicing.25420.2"
           },
           {
-            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
+            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions",
             "version": "7.0.0-preview.25377.8"
           },
           {
-            "name": "Microsoft.AspNetCore.Razor.Language",
+            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
             "version": "7.0.0-preview.25377.8"
           },
           {
@@ -1273,15 +1273,11 @@
             "version": "2.1.0"
           },
           {
-            "name": "Microsoft.DotNet.Cli.Sln.Internal",
+            "name": "Microsoft.DotNet.Cli",
             "version": "8.0.120-servicing.25421.8"
           },
           {
             "name": "Microsoft.DotNet.Cli.Utils",
-            "version": "8.0.120-servicing.25421.8"
-          },
-          {
-            "name": "Microsoft.DotNet.NativeWrapper",
             "version": "8.0.120-servicing.25421.8"
           },
           {
@@ -1469,11 +1465,11 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CommunicationUtilities",
+            "name": "Microsoft.TestPlatform.ObjectModel",
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CrossPlatEngine",
+            "name": "Microsoft.TestPlatform.PlatformAbstractions",
             "version": "17.8.0-release-23615-02"
           },
           {
@@ -1681,6 +1677,10 @@
             "version": "2.2.4"
           },
           {
+            "name": "csc",
+            "version": "4.8.0-7.25056.18"
+          },
+          {
             "name": "datacollector",
             "version": "17.8.0-release-23615-02"
           },
@@ -1705,16 +1705,20 @@
             "version": "8.0.120-servicing.25421.8"
           },
           {
-            "name": "microsoft.dotnet.templateLocator",
-            "version": "8.0.120-servicing.25421.8"
-          },
-          {
             "name": "rzc",
             "version": "8.0.120-servicing.25421.8"
           },
           {
             "name": "tool_fsc",
             "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "tool_nuget",
+            "version": "8.0.120-servicing.25421.8"
+          },
+          {
+            "name": "vbc",
+            "version": "4.8.0-7.25056.18"
           }
         ],
         "freebsd": [
@@ -1736,11 +1740,11 @@
           },
           {
             "name": "FreeBSD-clibs",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-ctf-lib",
@@ -1816,7 +1820,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -1828,7 +1832,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -1836,7 +1840,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-zlib",
@@ -1896,7 +1900,7 @@
           },
           {
             "name": "curl",
-            "version": "8.20.0"
+            "version": "8.21.0"
           },
           {
             "name": "dav1d",
@@ -2523,7 +2527,7 @@
       },
       "source": "pkg",
       "summary": {
-        "dotnet": 148,
+        "dotnet": 149,
         "freebsd": 194,
         "go": 0,
         "java": 0,
@@ -2532,13 +2536,13 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 346
+        "total": 347
       }
     },
     "pkg-latest": {
-      "app_version": "4.9.3.0",
+      "app_version": "4.9.3.0_1",
       "arch": "amd64",
-      "generated": "2026-06-26T23:23:56Z",
+      "generated": "2026-07-06T16:32:59Z",
       "packages": {
         "dotnet": [
           {
@@ -2550,7 +2554,7 @@
             "version": "2023.6.25.4"
           },
           {
-            "name": "Emby.Server.MediaEncoding",
+            "name": "Emby.Naming",
             "version": "4.9.3"
           },
           {
@@ -2582,11 +2586,11 @@
             "version": "8.0.27-servicing.26230.8"
           },
           {
-            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
+            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions",
             "version": "7.0.0-preview.26064.3"
           },
           {
-            "name": "Microsoft.AspNetCore.Razor.Utilities.Shared",
+            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
             "version": "7.0.0-preview.26064.3"
           },
           {
@@ -2690,11 +2694,7 @@
             "version": "2.1.0"
           },
           {
-            "name": "Microsoft.DotNet.Cli",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
-            "name": "Microsoft.DotNet.Cli.Sln.Internal",
+            "name": "Microsoft.DotNet.Cli.Utils",
             "version": "8.0.127-servicing.26230.7"
           },
           {
@@ -2826,10 +2826,6 @@
             "version": "7.6.2"
           },
           {
-            "name": "Microsoft.NET.Build.Containers",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
             "name": "Microsoft.NET.HostModel",
             "version": "8.0.27-servicing.26229.22"
           },
@@ -2886,15 +2882,11 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CommunicationUtilities",
+            "name": "Microsoft.TestPlatform.TranslationLayer",
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CoreUtilities",
-            "version": "17.8.0-release-23615-02"
-          },
-          {
-            "name": "Microsoft.TestPlatform.ObjectModel",
+            "name": "Microsoft.TestPlatform.Utilities",
             "version": "17.8.0-release-23615-02"
           },
           {
@@ -2920,6 +2912,10 @@
           {
             "name": "NuGet.CommandLine.XPlat",
             "version": "6.8.2-rc.32767"
+          },
+          {
+            "name": "NuGet.CommandLine.XPlat.deps.json",
+            "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "NuGet.Commands",
@@ -3126,16 +3122,24 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "microsoft.dotnet.templateLocator",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
             "name": "rzc",
             "version": "8.0.127-servicing.26230.7"
           },
           {
+            "name": "testhost",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
             "name": "tool_fsc",
             "version": "8.0.127-servicing.26230.7"
+          },
+          {
+            "name": "tool_nuget",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
+            "name": "vbc",
+            "version": "4.8.0-7.25569.25"
           }
         ],
         "freebsd": [
@@ -3157,11 +3161,11 @@
           },
           {
             "name": "FreeBSD-clibs",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-ctf-lib",
@@ -3237,7 +3241,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -3249,7 +3253,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -3257,7 +3261,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-zlib",
@@ -3277,7 +3281,7 @@
           },
           {
             "name": "aom",
-            "version": "3.14.1"
+            "version": "3.14.1_1"
           },
           {
             "name": "aribb24",
@@ -3317,7 +3321,7 @@
           },
           {
             "name": "curl",
-            "version": "8.20.0"
+            "version": "8.21.0"
           },
           {
             "name": "dav1d",
@@ -3333,7 +3337,7 @@
           },
           {
             "name": "emby-server",
-            "version": "4.9.3.0"
+            "version": "4.9.3.0_1"
           },
           {
             "name": "execline",
@@ -3341,11 +3345,11 @@
           },
           {
             "name": "expat",
-            "version": "2.8.1"
+            "version": "2.8.2"
           },
           {
             "name": "ffmpeg",
-            "version": "8.1.2,1"
+            "version": "8.1.2_1,1"
           },
           {
             "name": "fftw3",
@@ -3365,7 +3369,7 @@
           },
           {
             "name": "gcc14",
-            "version": "14.2.0_4"
+            "version": "14.2.0_6"
           },
           {
             "name": "gdk-pixbuf2",
@@ -3429,7 +3433,7 @@
           },
           {
             "name": "jq",
-            "version": "1.8.1"
+            "version": "1.8.2"
           },
           {
             "name": "krb5",
@@ -3493,7 +3497,7 @@
           },
           {
             "name": "libXrandr",
-            "version": "1.5.4"
+            "version": "1.5.5"
           },
           {
             "name": "libXrender",
@@ -3513,7 +3517,7 @@
           },
           {
             "name": "libass",
-            "version": "0.17.4_1"
+            "version": "0.17.5"
           },
           {
             "name": "libbluray",
@@ -3557,7 +3561,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.5.2"
+            "version": "3.6.0"
           },
           {
             "name": "libglvnd",
@@ -3585,7 +3589,7 @@
           },
           {
             "name": "libjxl",
-            "version": "0.11.2"
+            "version": "0.12.0"
           },
           {
             "name": "liblz4",
@@ -3609,7 +3613,7 @@
           },
           {
             "name": "libpsl",
-            "version": "0.21.5_2"
+            "version": "0.22.0"
           },
           {
             "name": "libraw",
@@ -3621,7 +3625,7 @@
           },
           {
             "name": "libssh2",
-            "version": "1.11.1,3"
+            "version": "1.11.1_1,3"
           },
           {
             "name": "libtasn1",
@@ -3665,7 +3669,7 @@
           },
           {
             "name": "libva",
-            "version": "2.23.0"
+            "version": "2.24.0"
           },
           {
             "name": "libvdpau",
@@ -3689,7 +3693,7 @@
           },
           {
             "name": "libxkbcommon",
-            "version": "1.13.1"
+            "version": "1.13.2"
           },
           {
             "name": "libxml2",
@@ -3705,7 +3709,7 @@
           },
           {
             "name": "llvm19",
-            "version": "19.1.7_3"
+            "version": "19.1.7_4"
           },
           {
             "name": "lua53",
@@ -3717,7 +3721,7 @@
           },
           {
             "name": "mesa-libs",
-            "version": "26.0.6"
+            "version": "26.1.3"
           },
           {
             "name": "mpc",
@@ -3800,20 +3804,20 @@
             "version": "1.6.58"
           },
           {
-            "name": "py311-boost-libs",
+            "name": "py312-boost-libs",
             "version": "1.89.0"
           },
           {
-            "name": "py311-numpy",
+            "name": "py312-numpy",
             "version": "2.4.6_1,1"
           },
           {
-            "name": "py311-packaging",
+            "name": "py312-packaging",
             "version": "26.2"
           },
           {
-            "name": "python311",
-            "version": "3.11.15_4"
+            "name": "python312",
+            "version": "3.12.13_3"
           },
           {
             "name": "readline",
@@ -3841,7 +3845,7 @@
           },
           {
             "name": "spirv-llvm-translator-llvm19",
-            "version": "19.1.19"
+            "version": "19.1.20"
           },
           {
             "name": "spirv-tools",
@@ -3849,7 +3853,7 @@
           },
           {
             "name": "sqlite3",
-            "version": "3.53.1,1"
+            "version": "3.53.3,1"
           },
           {
             "name": "srt",
@@ -3877,7 +3881,7 @@
           },
           {
             "name": "vmaf",
-            "version": "3.1.0"
+            "version": "3.2.0"
           },
           {
             "name": "vulkan-loader",
@@ -3897,7 +3901,7 @@
           },
           {
             "name": "xkeyboard-config",
-            "version": "2.41_4"
+            "version": "2.48"
           },
           {
             "name": "xorgproto",
