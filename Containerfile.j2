@@ -2,7 +2,7 @@ ARG BASE_VERSION=15.1
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
-ARG PACKAGES="dotnet8 expat fontconfig freetype2 fribidi gettext-runtime intel-media-sdk libarchive libass libdrm libexif libiconv libogg libtheora libva libvorbis libzvbi mbedtls3 ocl-icd opus pango sqlite3 tesseract"
+ARG PACKAGES="dotnet8 expat fontconfig freetype2 fribidi gettext-runtime intel-media-sdk libarchive libass libdrm libexif libiconv libogg librsvg2-rust libtheora libva libvorbis libzvbi mbedtls3 ocl-icd opus pango sqlite3 tesseract"
 ARG UPSTREAM_URL="https://api.github.com/repos/MediaBrowser/Emby.Releases/releases/latest"
 ARG UPSTREAM_JQ=".tag_name"
 {%- if ports %}
