@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-01T20:17:02Z",
+  "generated": "2026-08-11T16:27:01Z",
   "image": "emby",
   "tags": {
     "beta": {
-      "app_version": "4.10.0.22",
+      "app_version": "4.10.0.23",
       "arch": "amd64",
-      "generated": "2026-08-01T19:47:06Z",
+      "generated": "2026-08-11T16:20:27Z",
       "packages": {
         "dotnet": [
           {
@@ -19,9 +19,9 @@
             "version": "2023.6.25.6"
           },
           {
-            "name": "Emby.Ffmpeg",
+            "name": "Emby.Server.Sync",
             "purl": "",
-            "version": "4.10.0.22"
+            "version": "4.10.0.23"
           },
           {
             "name": "Grynwald.MarkdownGenerator",
@@ -194,12 +194,12 @@
             "version": "2.1.0"
           },
           {
-            "name": "Microsoft.DotNet.Cli.Sln.Internal",
+            "name": "Microsoft.DotNet.Cli.Utils",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "Microsoft.DotNet.Configurer",
+            "name": "Microsoft.DotNet.NativeWrapper",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
@@ -364,11 +364,6 @@
             "version": "7.6.2"
           },
           {
-            "name": "Microsoft.NET.Build.Containers",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
             "name": "Microsoft.NET.HostModel",
             "purl": "",
             "version": "8.0.27-servicing.26229.22"
@@ -402,11 +397,6 @@
             "name": "Microsoft.TemplateEngine.Abstractions",
             "purl": "",
             "version": "8.0.127"
-          },
-          {
-            "name": "Microsoft.TemplateEngine.Cli",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "Microsoft.TemplateEngine.Core",
@@ -447,6 +437,21 @@
             "name": "Microsoft.TestPlatform.CommunicationUtilities",
             "purl": "",
             "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.TestPlatform.CoreUtilities",
+            "purl": "",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.TestPlatform.ObjectModel",
+            "purl": "",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.Win32.Msi",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "Microsoft.Win32.SystemEvents",
@@ -699,6 +704,11 @@
             "version": "4.5.4"
           },
           {
+            "name": "VBCSCompiler",
+            "purl": "",
+            "version": "4.8.0-7.25569.25"
+          },
+          {
             "name": "Valleysoft.DockerCredsProvider",
             "purl": "",
             "version": "2.2.4"
@@ -739,14 +749,14 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
+            "name": "tool_nuget",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
             "name": "vbc",
             "purl": "",
             "version": "4.8.0-7.25569.25"
-          },
-          {
-            "name": "vstest.console",
-            "purl": "",
-            "version": "17.8.0-release-23615-02"
           }
         ],
         "freebsd": [
@@ -1036,7 +1046,7 @@
               "UNKNOWN"
             ],
             "name": "emby-server",
-            "version": "4.10.0.22_1"
+            "version": "4.10.0.23_1"
           },
           {
             "licenses": [
@@ -1666,7 +1676,7 @@
       },
       "source": "upstream",
       "summary": {
-        "dotnet": 148,
+        "dotnet": 150,
         "freebsd": 126,
         "go": 0,
         "java": 0,
@@ -1675,13 +1685,13 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 276
+        "total": 278
       }
     },
     "pkg": {
       "app_version": "4.9.3.0_1",
       "arch": "amd64",
-      "generated": "2026-08-01T19:47:15Z",
+      "generated": "2026-08-11T16:23:15Z",
       "packages": {
         "dotnet": [
           {
@@ -1693,11 +1703,6 @@
             "name": "Emby.FFmpegBinaries.Windows",
             "purl": "",
             "version": "2023.6.25.4"
-          },
-          {
-            "name": "Emby.Photos",
-            "purl": "",
-            "version": "4.9.3"
           },
           {
             "name": "Grynwald.MarkdownGenerator",
@@ -1720,6 +1725,11 @@
             "version": "2.14.1"
           },
           {
+            "name": "MediaBrowser.Common",
+            "purl": "",
+            "version": "4.9.3"
+          },
+          {
             "name": "Microsoft.ApplicationInsights",
             "purl": "",
             "version": "2.21.0"
@@ -1740,7 +1750,7 @@
             "version": "7.0.0-preview.26064.3"
           },
           {
-            "name": "Microsoft.AspNetCore.Razor.Language",
+            "name": "Microsoft.AspNetCore.Razor.Utilities.Shared",
             "purl": "",
             "version": "7.0.0-preview.26064.3"
           },
@@ -2115,17 +2125,17 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CoreUtilities",
+            "name": "Microsoft.TestPlatform.CommunicationUtilities",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.Utilities",
+            "name": "Microsoft.TestPlatform.PlatformAbstractions",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.VisualStudio.TestPlatform.Common",
+            "name": "Microsoft.VisualStudio.TestPlatform.Client",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
@@ -2380,9 +2390,19 @@
             "version": "4.5.4"
           },
           {
+            "name": "VBCSCompiler",
+            "purl": "",
+            "version": "4.8.0-7.25569.25"
+          },
+          {
             "name": "Valleysoft.DockerCredsProvider",
             "purl": "",
             "version": "2.2.4"
+          },
+          {
+            "name": "csc",
+            "purl": "",
+            "version": "4.8.0-7.25569.25"
           },
           {
             "name": "dotnet-dev-certs",
@@ -3590,7 +3610,7 @@
               "GPLv1+"
             ],
             "name": "perl5",
-            "version": "5.42.2"
+            "version": "5.42.3"
           },
           {
             "licenses": [
@@ -3896,7 +3916,7 @@
       },
       "source": "pkg",
       "summary": {
-        "dotnet": 148,
+        "dotnet": 150,
         "freebsd": 194,
         "go": 0,
         "java": 0,
@@ -3905,13 +3925,13 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 356
+        "total": 358
       }
     },
     "pkg-latest": {
       "app_version": "4.9.3.0_2",
       "arch": "amd64",
-      "generated": "2026-08-01T19:53:14Z",
+      "generated": "2026-08-11T16:23:21Z",
       "packages": {
         "dotnet": [
           {
@@ -3923,11 +3943,6 @@
             "name": "Emby.FFmpegBinaries.Windows",
             "purl": "",
             "version": "2023.6.25.4"
-          },
-          {
-            "name": "Emby.Ffmpeg",
-            "purl": "",
-            "version": "4.9.3"
           },
           {
             "name": "Grynwald.MarkdownGenerator",
@@ -3950,6 +3965,11 @@
             "version": "2.14.1"
           },
           {
+            "name": "MediaBrowser.Server.Core",
+            "purl": "",
+            "version": "4.9.3"
+          },
+          {
             "name": "Microsoft.ApplicationInsights",
             "purl": "",
             "version": "2.21.0"
@@ -3965,12 +3985,12 @@
             "version": "8.0.27-servicing.26230.8"
           },
           {
-            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
+            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions",
             "purl": "",
             "version": "7.0.0-preview.26064.3"
           },
           {
-            "name": "Microsoft.AspNetCore.Razor.Language",
+            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
             "purl": "",
             "version": "7.0.0-preview.26064.3"
           },
@@ -4100,7 +4120,7 @@
             "version": "2.1.0"
           },
           {
-            "name": "Microsoft.DotNet.Cli.Sln.Internal",
+            "name": "Microsoft.DotNet.Cli",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
@@ -4110,7 +4130,7 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "Microsoft.DotNet.InternalAbstractions",
+            "name": "Microsoft.DotNet.Configurer",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
@@ -4275,11 +4295,6 @@
             "version": "7.6.2"
           },
           {
-            "name": "Microsoft.NET.Build.Containers",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
             "name": "Microsoft.NET.HostModel",
             "purl": "",
             "version": "8.0.27-servicing.26229.22"
@@ -4313,6 +4328,11 @@
             "name": "Microsoft.TemplateEngine.Abstractions",
             "purl": "",
             "version": "8.0.127"
+          },
+          {
+            "name": "Microsoft.TemplateEngine.Cli",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "Microsoft.TemplateEngine.Core",
@@ -4350,7 +4370,7 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CommunicationUtilities",
+            "name": "Microsoft.TestPlatform.CoreUtilities",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
@@ -4605,9 +4625,19 @@
             "version": "4.5.4"
           },
           {
+            "name": "VBCSCompiler",
+            "purl": "",
+            "version": "4.8.0-7.25569.25"
+          },
+          {
             "name": "Valleysoft.DockerCredsProvider",
             "purl": "",
             "version": "2.2.4"
+          },
+          {
+            "name": "csc",
+            "purl": "",
+            "version": "4.8.0-7.25569.25"
           },
           {
             "name": "datacollector",
@@ -5095,7 +5125,7 @@
               "LGPL20"
             ],
             "name": "glib",
-            "version": "2.86.4,2"
+            "version": "2.88.3,2"
           },
           {
             "licenses": [
@@ -5141,7 +5171,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.409,1"
+            "version": "0.410,1"
           },
           {
             "licenses": [
@@ -5283,7 +5313,7 @@
               "MIT"
             ],
             "name": "libXft",
-            "version": "2.3.8"
+            "version": "2.3.9"
           },
           {
             "licenses": [
@@ -5367,7 +5397,7 @@
               "MIT"
             ],
             "name": "libdrm",
-            "version": "2.4.133,1"
+            "version": "2.4.134,1"
           },
           {
             "licenses": [
@@ -5510,7 +5540,7 @@
               "CDDL"
             ],
             "name": "libraw",
-            "version": "0.22.1"
+            "version": "0.22.2"
           },
           {
             "licenses": [
@@ -5553,7 +5583,7 @@
               "BSD2CLAUSE"
             ],
             "name": "libudev-devd",
-            "version": "0.6.0"
+            "version": "0.7.0"
           },
           {
             "licenses": [
@@ -5698,7 +5728,7 @@
               "MIT"
             ],
             "name": "mesa-libs",
-            "version": "26.1.5_1"
+            "version": "26.1.5_2"
           },
           {
             "licenses": [
@@ -5726,7 +5756,7 @@
               "LGPL21"
             ],
             "name": "mpg123",
-            "version": "1.33.6"
+            "version": "1.33.7"
           },
           {
             "licenses": [
@@ -5805,7 +5835,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.4"
+            "version": "0.26.5"
           },
           {
             "licenses": [
@@ -5827,7 +5857,7 @@
               "GPLv1+"
             ],
             "name": "perl5",
-            "version": "5.42.2"
+            "version": "5.42.3"
           },
           {
             "licenses": [
@@ -5905,7 +5935,7 @@
               "APACHE20"
             ],
             "name": "shaderc",
-            "version": "2026.2_1"
+            "version": "2026.3"
           },
           {
             "licenses": [
@@ -5926,14 +5956,14 @@
               "NCSA"
             ],
             "name": "spirv-llvm-translator-llvm19",
-            "version": "19.1.20"
+            "version": "19.1.21"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "spirv-tools",
-            "version": "2026.2"
+            "version": "2026.3.r1"
           },
           {
             "licenses": [
@@ -5998,7 +6028,7 @@
               "APACHE20"
             ],
             "name": "vulkan-loader",
-            "version": "1.4.356"
+            "version": "1.4.357"
           },
           {
             "licenses": [
@@ -6133,7 +6163,7 @@
       },
       "source": "pkg",
       "summary": {
-        "dotnet": 148,
+        "dotnet": 150,
         "freebsd": 195,
         "go": 0,
         "java": 0,
@@ -6142,7 +6172,7 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 357
+        "total": 359
       }
     }
   }

@@ -25,7 +25,7 @@ Personal media server with apps on just about every device.
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `latest` / `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
-| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
 | `beta` | **Upstream Binary**. Built from official release. | Alternative build. |
 
 ## Prerequisites
@@ -78,7 +78,7 @@ services:
     name: emby
     options:
       - container: 'boot args:--pull'
-      - expose: '8096:8096 proto:tcp' \
+      - expose: '8096:8096 proto:tcp'
     oci:
       user: root
       environment:
