@@ -1,18 +1,13 @@
 {
-  "generated": "2026-08-18T21:52:03Z",
+  "generated": "2026-08-19T22:14:55Z",
   "image": "emby",
   "tags": {
     "beta": {
-      "app_version": "4.10.0.25",
+      "app_version": "4.10.0.26",
       "arch": "amd64",
-      "generated": "2026-08-18T21:33:12Z",
+      "generated": "2026-08-19T22:13:10Z",
       "packages": {
         "dotnet": [
-          {
-            "name": "Emby.ActivityLog",
-            "purl": "",
-            "version": "4.10.0.25"
-          },
           {
             "name": "Emby.FFmpegBinaries.Mac",
             "purl": "",
@@ -22,6 +17,11 @@
             "name": "Emby.FFmpegBinaries.Windows",
             "purl": "",
             "version": "2023.6.25.6"
+          },
+          {
+            "name": "Emby.Notifications",
+            "purl": "",
+            "version": "4.10.0.26"
           },
           {
             "name": "Grynwald.MarkdownGenerator",
@@ -194,7 +194,12 @@
             "version": "2.1.0"
           },
           {
-            "name": "Microsoft.DotNet.NativeWrapper",
+            "name": "Microsoft.DotNet.Cli",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
+            "name": "Microsoft.DotNet.Cli.Utils",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
@@ -359,11 +364,6 @@
             "version": "7.6.2"
           },
           {
-            "name": "Microsoft.NET.Build.Containers",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
             "name": "Microsoft.NET.HostModel",
             "purl": "",
             "version": "8.0.27-servicing.26229.22"
@@ -375,6 +375,11 @@
           },
           {
             "name": "Microsoft.NET.Sdk.StaticWebAssets.Tool",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
+            "name": "Microsoft.NET.Sdk.WorkloadManifestReader",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
@@ -397,11 +402,6 @@
             "name": "Microsoft.TemplateEngine.Abstractions",
             "purl": "",
             "version": "8.0.127"
-          },
-          {
-            "name": "Microsoft.TemplateEngine.Cli",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "Microsoft.TemplateEngine.Core",
@@ -439,12 +439,17 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.PlatformAbstractions",
+            "name": "Microsoft.TestPlatform.CommunicationUtilities",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.Utilities",
+            "name": "Microsoft.TestPlatform.CoreUtilities",
+            "purl": "",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.TestPlatform.TranslationLayer",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
@@ -709,6 +714,11 @@
             "version": "2.2.4"
           },
           {
+            "name": "csc",
+            "purl": "",
+            "version": "4.8.0-7.25569.25"
+          },
+          {
             "name": "dotnet-dev-certs",
             "purl": "",
             "version": "8.0.27-servicing.26230.8"
@@ -734,29 +744,14 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "microsoft.dotnet.templateLocator",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
             "name": "rzc",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "testhost",
-            "purl": "",
-            "version": "17.8.0-release-23615-02"
-          },
-          {
             "name": "tool_fsc",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
-          },
-          {
-            "name": "vbc",
-            "purl": "",
-            "version": "4.8.0-7.25569.25"
           }
         ],
         "freebsd": [
@@ -1046,7 +1041,7 @@
               "UNKNOWN"
             ],
             "name": "emby-server",
-            "version": "4.10.0.25_1"
+            "version": "4.10.0.26_1"
           },
           {
             "licenses": [
@@ -1676,7 +1671,7 @@
       },
       "source": "upstream",
       "summary": {
-        "dotnet": 150,
+        "dotnet": 149,
         "freebsd": 126,
         "go": 0,
         "java": 0,
@@ -1685,15 +1680,20 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 278
+        "total": 277
       }
     },
     "pkg": {
       "app_version": "4.9.3.0_1",
       "arch": "amd64",
-      "generated": "2026-08-18T21:47:50Z",
+      "generated": "2026-08-19T15:50:03Z",
       "packages": {
         "dotnet": [
+          {
+            "name": "Emby.ActivityLog",
+            "purl": "",
+            "version": "4.9.3"
+          },
           {
             "name": "Emby.FFmpegBinaries.Mac",
             "purl": "",
@@ -1725,16 +1725,6 @@
             "version": "2.14.1"
           },
           {
-            "name": "MSBuild.deps.json",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
-            "name": "MediaBrowser.Common",
-            "purl": "",
-            "version": "4.9.3"
-          },
-          {
             "name": "Microsoft.ApplicationInsights",
             "purl": "",
             "version": "2.21.0"
@@ -1751,6 +1741,11 @@
           },
           {
             "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
+            "purl": "",
+            "version": "7.0.0-preview.26064.3"
+          },
+          {
+            "name": "Microsoft.AspNetCore.Razor.Language",
             "purl": "",
             "version": "7.0.0-preview.26064.3"
           },
@@ -1878,16 +1873,6 @@
             "name": "Microsoft.DiaSymReader",
             "purl": "",
             "version": "2.1.0"
-          },
-          {
-            "name": "Microsoft.DotNet.Cli.Utils",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
-            "name": "Microsoft.DotNet.NativeWrapper",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "Microsoft.Extensions.Configuration",
@@ -2050,6 +2035,11 @@
             "version": "7.6.2"
           },
           {
+            "name": "Microsoft.NET.Build.Containers",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
             "name": "Microsoft.NET.HostModel",
             "purl": "",
             "version": "8.0.27-servicing.26229.22"
@@ -2058,11 +2048,6 @@
             "name": "Microsoft.NET.Sdk.BlazorWebAssembly.Tool",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
-          },
-          {
-            "name": "Microsoft.NET.Sdk.Razor.SourceGenerators",
-            "purl": "",
-            "version": "7.0.0-preview.26064.3"
           },
           {
             "name": "Microsoft.NET.Sdk.StaticWebAssets.Tool",
@@ -2125,14 +2110,19 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CrossPlatEngine",
+            "name": "Microsoft.TestPlatform.CommunicationUtilities",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.PlatformAbstractions",
+            "name": "Microsoft.TestPlatform.ObjectModel",
             "purl": "",
             "version": "17.8.0-release-23615-02"
+          },
+          {
+            "name": "Microsoft.Win32.Msi",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "Microsoft.Win32.SystemEvents",
@@ -2163,6 +2153,11 @@
             "name": "NuGet.CommandLine.XPlat",
             "purl": "",
             "version": "6.8.2-rc.32767"
+          },
+          {
+            "name": "NuGet.CommandLine.XPlat.deps.json",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "NuGet.Commands",
@@ -2385,6 +2380,11 @@
             "version": "4.5.4"
           },
           {
+            "name": "VBCSCompiler",
+            "purl": "",
+            "version": "4.8.0-7.25569.25"
+          },
+          {
             "name": "Valleysoft.DockerCredsProvider",
             "purl": "",
             "version": "2.2.4"
@@ -2393,6 +2393,11 @@
             "name": "csc",
             "purl": "",
             "version": "4.8.0-7.25569.25"
+          },
+          {
+            "name": "datacollector",
+            "purl": "",
+            "version": "17.8.0-release-23615-02"
           },
           {
             "name": "dotnet-dev-certs",
@@ -2420,11 +2425,6 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "dotnet.deps.json",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
             "name": "rzc",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
@@ -2435,9 +2435,9 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "vstest.console",
+            "name": "vbc",
             "purl": "",
-            "version": "17.8.0-release-23615-02"
+            "version": "4.8.0-7.25569.25"
           }
         ],
         "freebsd": [
@@ -3911,7 +3911,7 @@
       },
       "source": "pkg",
       "summary": {
-        "dotnet": 149,
+        "dotnet": 150,
         "freebsd": 194,
         "go": 0,
         "java": 0,
@@ -3920,17 +3920,17 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 357
+        "total": 358
       }
     },
     "pkg-latest": {
       "app_version": "4.9.3.0_3",
       "arch": "amd64",
-      "generated": "2026-08-18T21:40:39Z",
+      "generated": "2026-08-19T15:50:10Z",
       "packages": {
         "dotnet": [
           {
-            "name": "Emby.Api",
+            "name": "Emby.Drawing.Skia",
             "purl": "",
             "version": "4.9.3"
           },
@@ -4060,6 +4060,11 @@
             "version": "4.8.0-7.25569.25"
           },
           {
+            "name": "Microsoft.CodeAnalysis.Razor",
+            "purl": "",
+            "version": "7.0.0-preview.26064.3"
+          },
+          {
             "name": "Microsoft.CodeAnalysis.Razor.Tooling.Internal",
             "purl": "",
             "version": "7.0.0-preview.26064.3"
@@ -4115,7 +4120,7 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "Microsoft.DotNet.NativeWrapper",
+            "name": "Microsoft.DotNet.Configurer",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
@@ -4290,11 +4295,6 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "Microsoft.NET.Sdk.Razor.SourceGenerators",
-            "purl": "",
-            "version": "7.0.0-preview.26064.3"
-          },
-          {
             "name": "Microsoft.NET.Sdk.StaticWebAssets.Tool",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
@@ -4360,17 +4360,12 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CommunicationUtilities",
+            "name": "Microsoft.TestPlatform.CoreUtilities",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.Utilities",
-            "purl": "",
-            "version": "17.8.0-release-23615-02"
-          },
-          {
-            "name": "Microsoft.VisualStudio.TestPlatform.Common",
+            "name": "Microsoft.TestPlatform.ObjectModel",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
@@ -4625,6 +4620,11 @@
             "version": "4.5.4"
           },
           {
+            "name": "VBCSCompiler",
+            "purl": "",
+            "version": "4.8.0-7.25569.25"
+          },
+          {
             "name": "Valleysoft.DockerCredsProvider",
             "purl": "",
             "version": "2.2.4"
@@ -4665,9 +4665,9 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "vbc",
+            "name": "tool_nuget",
             "purl": "",
-            "version": "4.8.0-7.25569.25"
+            "version": "8.0.127-servicing.26230.7"
           }
         ],
         "freebsd": [
