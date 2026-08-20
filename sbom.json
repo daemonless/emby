@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-20T11:25:34Z",
+  "generated": "2026-08-20T20:12:16Z",
   "image": "emby",
   "tags": {
     "beta": {
       "app_version": "4.10.0.26",
       "arch": "amd64",
-      "generated": "2026-08-20T11:19:33Z",
+      "generated": "2026-08-20T20:09:16Z",
       "packages": {
         "dotnet": [
           {
@@ -17,6 +17,11 @@
             "name": "Emby.FFmpegBinaries.Windows",
             "purl": "",
             "version": "2023.6.25.6"
+          },
+          {
+            "name": "Emby.Notifications",
+            "purl": "",
+            "version": "4.10.0.26"
           },
           {
             "name": "Grynwald.MarkdownGenerator",
@@ -59,7 +64,7 @@
             "version": "7.0.0-preview.26064.3"
           },
           {
-            "name": "Microsoft.AspNetCore.Razor.Utilities.Shared",
+            "name": "Microsoft.AspNetCore.Razor.Language",
             "purl": "",
             "version": "7.0.0-preview.26064.3"
           },
@@ -189,17 +194,7 @@
             "version": "2.1.0"
           },
           {
-            "name": "Microsoft.DotNet.Cli",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
-            "name": "Microsoft.DotNet.Cli.Sln.Internal",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
-            "name": "Microsoft.DotNet.Cli.Utils",
+            "name": "Microsoft.DotNet.Configurer",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
@@ -364,6 +359,11 @@
             "version": "7.6.2"
           },
           {
+            "name": "Microsoft.NET.Build.Containers",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
             "name": "Microsoft.NET.HostModel",
             "purl": "",
             "version": "8.0.27-servicing.26229.22"
@@ -434,12 +434,12 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CommunicationUtilities",
+            "name": "Microsoft.TestPlatform.CoreUtilities",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CrossPlatEngine",
+            "name": "Microsoft.TestPlatform.ObjectModel",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
@@ -542,11 +542,6 @@
             "name": "SMBLibrary",
             "purl": "",
             "version": "1.5.7.1"
-          },
-          {
-            "name": "SQLitePCLRawEx.core",
-            "purl": "",
-            "version": "4.10.0.26"
           },
           {
             "name": "ServiceStack.Text.Core",
@@ -704,6 +699,11 @@
             "version": "4.5.4"
           },
           {
+            "name": "VBCSCompiler",
+            "purl": "",
+            "version": "4.8.0-7.25569.25"
+          },
+          {
             "name": "Valleysoft.DockerCredsProvider",
             "purl": "",
             "version": "2.2.4"
@@ -734,17 +734,22 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "microsoft.dotnet.templateLocator",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
             "name": "rzc",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "tool_fsc",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
+            "name": "tool_msbuild",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
+            "name": "tool_nuget",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           }
@@ -986,7 +991,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -1666,7 +1671,7 @@
       },
       "source": "upstream",
       "summary": {
-        "dotnet": 148,
+        "dotnet": 149,
         "freebsd": 126,
         "go": 0,
         "java": 0,
@@ -1675,13 +1680,13 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 276
+        "total": 277
       }
     },
     "pkg": {
       "app_version": "4.9.3.0_1",
       "arch": "amd64",
-      "generated": "2026-08-20T11:21:48Z",
+      "generated": "2026-08-20T20:07:15Z",
       "packages": {
         "dotnet": [
           {
@@ -1695,7 +1700,7 @@
             "version": "2023.6.25.4"
           },
           {
-            "name": "Emby.LocalMetadata",
+            "name": "Emby.Ffmpeg.Lib",
             "purl": "",
             "version": "4.9.3"
           },
@@ -1736,11 +1741,6 @@
           },
           {
             "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
-            "purl": "",
-            "version": "7.0.0-preview.26064.3"
-          },
-          {
-            "name": "Microsoft.AspNetCore.Razor.Utilities.Shared",
             "purl": "",
             "version": "7.0.0-preview.26064.3"
           },
@@ -1868,11 +1868,6 @@
             "name": "Microsoft.DiaSymReader",
             "purl": "",
             "version": "2.1.0"
-          },
-          {
-            "name": "Microsoft.DotNet.Cli.Sln.Internal",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "Microsoft.Extensions.Configuration",
@@ -2050,7 +2045,22 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
+            "name": "Microsoft.NET.Sdk.Razor.SourceGenerators",
+            "purl": "",
+            "version": "7.0.0-preview.26064.3"
+          },
+          {
             "name": "Microsoft.NET.Sdk.StaticWebAssets.Tool",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
+            "name": "Microsoft.NET.Sdk.WorkloadMSBuildSdkResolver",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
+            "name": "Microsoft.NET.Sdk.WorkloadManifestReader",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
@@ -2110,12 +2120,12 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CommunicationUtilities",
+            "name": "Microsoft.TestPlatform.PlatformAbstractions",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.TestPlatform.CrossPlatEngine",
+            "name": "Microsoft.VisualStudio.TestPlatform.Common",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
@@ -2405,22 +2415,12 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "dotnet.deps.json",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
             "name": "rzc",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "tool_fsc",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
-            "name": "tool_nuget",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           }
@@ -2719,7 +2719,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -3896,7 +3896,7 @@
       },
       "source": "pkg",
       "summary": {
-        "dotnet": 148,
+        "dotnet": 147,
         "freebsd": 194,
         "go": 0,
         "java": 0,
@@ -3905,13 +3905,13 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 356
+        "total": 355
       }
     },
     "pkg-latest": {
       "app_version": "4.9.3.0_3",
       "arch": "amd64",
-      "generated": "2026-08-20T11:22:30Z",
+      "generated": "2026-08-20T20:08:01Z",
       "packages": {
         "dotnet": [
           {
@@ -3925,7 +3925,7 @@
             "version": "2023.6.25.4"
           },
           {
-            "name": "Emby.Resources",
+            "name": "Emby.Server.Connect",
             "purl": "",
             "version": "4.9.3"
           },
@@ -3963,6 +3963,11 @@
             "name": "Microsoft.AspNetCore.DeveloperCertificates.XPlat",
             "purl": "",
             "version": "8.0.27-servicing.26230.8"
+          },
+          {
+            "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions",
+            "purl": "",
+            "version": "7.0.0-preview.26064.3"
           },
           {
             "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions.Tooling.Internal",
@@ -4095,17 +4100,12 @@
             "version": "2.1.0"
           },
           {
-            "name": "Microsoft.DotNet.Cli.Sln.Internal",
+            "name": "Microsoft.DotNet.Cli",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
           {
             "name": "Microsoft.DotNet.Cli.Utils",
-            "purl": "",
-            "version": "8.0.127-servicing.26230.7"
-          },
-          {
-            "name": "Microsoft.DotNet.InternalAbstractions",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
@@ -4280,12 +4280,17 @@
             "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "Microsoft.NET.Sdk.Razor.SourceGenerators",
+            "name": "Microsoft.NET.Sdk.StaticWebAssets.Tool",
             "purl": "",
-            "version": "7.0.0-preview.26064.3"
+            "version": "8.0.127-servicing.26230.7"
           },
           {
-            "name": "Microsoft.NET.Sdk.StaticWebAssets.Tool",
+            "name": "Microsoft.NET.Sdk.WorkloadMSBuildSdkResolver",
+            "purl": "",
+            "version": "8.0.127-servicing.26230.7"
+          },
+          {
+            "name": "Microsoft.NET.Sdk.WorkloadManifestReader",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
           },
@@ -4350,7 +4355,7 @@
             "version": "17.8.0-release-23615-02"
           },
           {
-            "name": "Microsoft.VisualStudio.TestPlatform.Common",
+            "name": "Microsoft.TestPlatform.ObjectModel",
             "purl": "",
             "version": "17.8.0-release-23615-02"
           },
@@ -4610,6 +4615,11 @@
             "version": "2.2.4"
           },
           {
+            "name": "datacollector",
+            "purl": "",
+            "version": "17.8.0-release-23615-02"
+          },
+          {
             "name": "dotnet-dev-certs",
             "purl": "",
             "version": "8.0.27-servicing.26230.8"
@@ -4643,11 +4653,6 @@
             "name": "tool_fsc",
             "purl": "",
             "version": "8.0.127-servicing.26230.7"
-          },
-          {
-            "name": "vbc",
-            "purl": "",
-            "version": "4.8.0-7.25569.25"
           }
         ],
         "freebsd": [
@@ -4944,7 +4949,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -6128,7 +6133,7 @@
       },
       "source": "pkg",
       "summary": {
-        "dotnet": 147,
+        "dotnet": 148,
         "freebsd": 195,
         "go": 0,
         "java": 0,
@@ -6137,7 +6142,7 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 356
+        "total": 357
       }
     }
   }
