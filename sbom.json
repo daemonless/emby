@@ -1,52 +1,52 @@
 {
-  "generated": "2026-09-04T13:38:39Z",
+  "generated": "2026-09-16T23:54:41Z",
   "image": "emby",
   "tags": {
     "beta": {
-      "app_version": "4.10.0.30",
+      "app_version": "4.11.0.1",
       "arch": "amd64",
-      "generated": "2026-09-04T13:31:12Z",
+      "generated": "2026-09-16T23:47:48Z",
       "packages": {
         "dotnet": [
           {
             "name": "Emby.ActivityLog",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Api",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Codecs",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Codecs.Dxva",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Drawing",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Drawing.LibVips",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Drawing.Skia",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Extensions",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.FFmpegBinaries.Mac",
@@ -61,107 +61,107 @@
           {
             "name": "Emby.Ffmpeg",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Ffmpeg.Base",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Ffmpeg.Lib",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.LiveTV",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.LocalMetadata",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Media.Model",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Naming",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Notifications",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Photos",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.ProcessRun",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Providers",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Resources",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Server.Connect",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Server.Implementations",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Server.MediaEncoding",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Server.Sync",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Sqlite",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Web",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Web.GenericEdit",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Emby.Web.GenericUI",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "EmbyServer",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "Grynwald.MarkdownGenerator",
@@ -191,17 +191,17 @@
           {
             "name": "MediaBrowser.Common",
             "purl": "",
-            "version": "4.10.0.30-beta"
+            "version": "4.11.0.1-beta"
           },
           {
             "name": "MediaBrowser.Model",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "MediaBrowser.Server.Core",
             "purl": "",
-            "version": "4.10.0.30-beta"
+            "version": "4.11.0.1-beta"
           },
           {
             "name": "Microsoft.ApplicationInsights",
@@ -801,7 +801,7 @@
           {
             "name": "RSSDP",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "SMBLibrary",
@@ -816,7 +816,7 @@
           {
             "name": "SQLitePCLRawEx.core",
             "purl": "",
-            "version": "4.10.0.30"
+            "version": "4.11.0.1"
           },
           {
             "name": "ServiceStack.Text.Core",
@@ -1301,7 +1301,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -1323,14 +1323,14 @@
               "MIT"
             ],
             "name": "curl",
-            "version": "8.21.0"
+            "version": "8.22.0"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.3_1"
+            "version": "1.5.4"
           },
           {
             "licenses": [
@@ -1351,7 +1351,7 @@
               "UNKNOWN"
             ],
             "name": "emby-server",
-            "version": "4.10.0.30_1"
+            "version": "4.11.0.1_1"
           },
           {
             "licenses": [
@@ -1996,7 +1996,7 @@
     "pkg": {
       "app_version": "4.9.3.0_1",
       "arch": "amd64",
-      "generated": "2026-09-04T13:34:42Z",
+      "generated": "2026-09-16T23:50:40Z",
       "packages": {
         "dotnet": [
           {
@@ -3349,7 +3349,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -3379,14 +3379,14 @@
               "MIT"
             ],
             "name": "curl",
-            "version": "8.21.0"
+            "version": "8.22.0"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.3_1"
+            "version": "1.5.4"
           },
           {
             "licenses": [
@@ -4541,7 +4541,7 @@
     "pkg-latest": {
       "app_version": "4.9.3.0_4",
       "arch": "amd64",
-      "generated": "2026-09-04T13:35:16Z",
+      "generated": "2026-09-16T23:50:13Z",
       "packages": {
         "dotnet": [
           {
@@ -5894,7 +5894,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -5924,14 +5924,14 @@
               "MIT"
             ],
             "name": "curl",
-            "version": "8.21.0"
+            "version": "8.22.0"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.3_1"
+            "version": "1.5.4"
           },
           {
             "licenses": [
@@ -5966,7 +5966,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.3"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -5974,7 +5974,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg",
-            "version": "8.1.2_3,1"
+            "version": "9.0.1,1"
           },
           {
             "licenses": [
@@ -6086,7 +6086,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.410,1"
+            "version": "0.411,1"
           },
           {
             "licenses": [
@@ -6165,7 +6165,7 @@
               "APACHE20"
             ],
             "name": "lerc",
-            "version": "4.1.1"
+            "version": "4.2.0"
           },
           {
             "licenses": [
@@ -6284,7 +6284,7 @@
               "LGPL21"
             ],
             "name": "libbluray",
-            "version": "1.5.0,1"
+            "version": "1.5.1,1"
           },
           {
             "licenses": [
@@ -6298,7 +6298,7 @@
               "MIT"
             ],
             "name": "libdeflate",
-            "version": "1.25"
+            "version": "1.26"
           },
           {
             "licenses": [
@@ -6369,7 +6369,7 @@
               "LGPL3+"
             ],
             "name": "libheif",
-            "version": "1.22.2_1"
+            "version": "1.22.2_2"
           },
           {
             "licenses": [
@@ -6390,7 +6390,7 @@
               "GPLv3+"
             ],
             "name": "libimagequant",
-            "version": "4.4.1_6"
+            "version": "4.4.1_7"
           },
           {
             "licenses": [
@@ -6462,7 +6462,7 @@
               "LGPL20"
             ],
             "name": "librsvg2-rust",
-            "version": "2.62.3_1"
+            "version": "2.62.3_2"
           },
           {
             "licenses": [
@@ -6596,7 +6596,7 @@
               "MIT"
             ],
             "name": "libxml2",
-            "version": "2.15.3"
+            "version": "2.15.4"
           },
           {
             "licenses": [
@@ -6643,7 +6643,7 @@
               "MIT"
             ],
             "name": "mesa-libs",
-            "version": "26.2.1"
+            "version": "26.2.2"
           },
           {
             "licenses": [
@@ -6686,7 +6686,7 @@
               "BSD2CLAUSE"
             ],
             "name": "ocl-icd",
-            "version": "2.3.4"
+            "version": "2.3.5"
           },
           {
             "licenses": [
@@ -6704,10 +6704,17 @@
           },
           {
             "licenses": [
+              "APACHE20"
+            ],
+            "name": "opencl",
+            "version": "3.1.1"
+          },
+          {
+            "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.15"
+            "version": "3.4.15_1"
           },
           {
             "licenses": [
@@ -6728,7 +6735,7 @@
               "BSD2CLAUSE"
             ],
             "name": "openjph",
-            "version": "0.30.1"
+            "version": "0.31.0"
           },
           {
             "licenses": [
@@ -6743,7 +6750,7 @@
               "BSD3CLAUSE"
             ],
             "name": "orc",
-            "version": "0.4.42"
+            "version": "0.4.44"
           },
           {
             "licenses": [
@@ -6764,7 +6771,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -6815,7 +6822,7 @@
               "APACHE20"
             ],
             "name": "py312-packaging",
-            "version": "26.2"
+            "version": "26.3"
           },
           {
             "licenses": [
@@ -6850,7 +6857,7 @@
               "APACHE20"
             ],
             "name": "shaderc",
-            "version": "2026.3"
+            "version": "2026.4"
           },
           {
             "licenses": [
@@ -6871,7 +6878,7 @@
               "NCSA"
             ],
             "name": "spirv-llvm-translator-llvm19",
-            "version": "19.1.21"
+            "version": "19.1.22"
           },
           {
             "licenses": [
@@ -7070,7 +7077,7 @@
           {
             "name": "packaging",
             "purl": "",
-            "version": "26.2"
+            "version": "26.3"
           }
         ],
         "ruby": [],
@@ -7079,7 +7086,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 211,
-        "freebsd": 195,
+        "freebsd": 196,
         "go": 0,
         "java": 0,
         "node": 11,
@@ -7087,7 +7094,7 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 420
+        "total": 421
       }
     }
   }
