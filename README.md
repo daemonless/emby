@@ -36,14 +36,14 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 ```yaml
 services:
   emby:
-    image: "ghcr.io/daemonless/emby:latest"
+    image: "ghcr.io/daemonless/emby:pkg"
     container_name: emby
     environment:
       - PUID=1000  # User ID for the application process
       - PGID=1000  # Group ID for the application process
       - TZ=UTC  # Timezone for the container
     volumes:
-      - "/path/to/containers/emby:/config"
+      - "/containers/emby:/config"
     ports:
       - "8096:8096"
     annotations:
@@ -91,7 +91,7 @@ services:
       - emby: /config
 volumes:
   emby:
-    device: '/path/to/containers/emby'
+    device: '/containers/emby'
 ```
 
 **Makejail**:
@@ -126,58 +126,6 @@ Save the files above, then run `appjail-director up`.
 >
 > To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
 
-### Podman CLI
-
-```bash
-podman run -d --name emby \
-  -p 8096:8096 \
-  --annotation 'org.freebsd.jail.allow.mlock=true' \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -v /path/to/containers/emby:/config \
-  ghcr.io/daemonless/emby:latest
-```
-
-Save as `run.sh`, then run `sh run.sh`.
-
-### AppJail
-
-
-```bash
-appjail oci run -Pd \
-  -o overwrite=force \
-  -o container="args:--pull" \
-  -o virtualnet=":<random> default" \
-  -o nat \
-  -o template=template.conf \
-  -o expose="8096:8096 proto:tcp" \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -o fstab="/path/to/containers/emby /config <pseudofs>" \
-  ghcr.io/daemonless/emby:latest emby
-```
-
-**template.conf**:
-```
-# template.conf
-
-exec.start: "/bin/sh /etc/rc"
-exec.stop: "/bin/sh /etc/rc.shutdown jail"
-mount.devfs
-persist
-allow.mlock
-```
-
-Save the files above, then run `sh run.sh`.
-
-
-> [!WARNING]
-> Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the jail's IPv4 address or hostname assigned by the virtual network.
->
-> To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
-
 ### Bastille
 
 > [!WARNING]
@@ -187,7 +135,7 @@ Save the files above, then run `sh run.sh`.
 services:
   emby:
     name: emby
-    image: "ghcr.io/daemonless/emby:latest"
+    image: "ghcr.io/daemonless/emby:pkg"
     network:
       - mode: host
     environment:
@@ -195,42 +143,10 @@ services:
       - PGID=1000
       - TZ=UTC
     volumes:
-      - "/path/to/containers/emby:/config"
+      - "/containers/emby:/config"
 ```
 
-Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
-
-```bash
-bastille create -O \
-  --env PUID=1000 \
-  --env PGID=1000 \
-  --env TZ=UTC \
-  --volume /path/to/containers/emby /config \
-  emby ghcr.io/daemonless/emby:latest inherit
-```
-
-### Ansible
-
-```yaml
-- name: Deploy emby
-  containers.podman.podman_container:
-    name: emby
-    image: "ghcr.io/daemonless/emby:latest"
-    state: started
-    restart_policy: always
-    env:
-      PUID: "1000"
-      PGID: "1000"
-      TZ: "UTC"
-    ports:
-      - "8096:8096"
-    volumes:
-      - "/path/to/containers/emby:/config"
-    annotation:
-      org.freebsd.jail.allow.mlock: "true"
-```
-
-Save as `emby-deploy.yaml`, then run `ansible-playbook emby-deploy.yaml`.
+Save as `bastille-compose.yml`, then run `bastille up`.
 
 Access at: `http://localhost:8096`
 
