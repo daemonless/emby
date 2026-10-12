@@ -1,52 +1,52 @@
 {
-  "generated": "2026-10-11T07:30:47Z",
+  "generated": "2026-10-12T20:46:57Z",
   "image": "emby",
   "tags": {
     "beta": {
-      "app_version": "4.11.0.6",
+      "app_version": "4.11.0.7",
       "arch": "amd64",
-      "generated": "2026-10-11T07:22:12Z",
+      "generated": "2026-10-12T20:38:07Z",
       "packages": {
         "dotnet": [
           {
             "name": "Emby.ActivityLog",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Api",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Codecs",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Codecs.Dxva",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Drawing",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Drawing.LibVips",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Drawing.Skia",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Extensions",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.FFmpegBinaries.Mac",
@@ -61,107 +61,107 @@
           {
             "name": "Emby.Ffmpeg",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Ffmpeg.Base",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Ffmpeg.Lib",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.LiveTV",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.LocalMetadata",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Media.Model",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Naming",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Notifications",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Photos",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.ProcessRun",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Providers",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Resources",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Server.Connect",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Server.Implementations",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Server.MediaEncoding",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Server.Sync",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Sqlite",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Web",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Web.GenericEdit",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Emby.Web.GenericUI",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "EmbyServer",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "Grynwald.MarkdownGenerator",
@@ -191,17 +191,17 @@
           {
             "name": "MediaBrowser.Common",
             "purl": "",
-            "version": "4.11.0.6-beta"
+            "version": "4.11.0.7-beta"
           },
           {
             "name": "MediaBrowser.Model",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "MediaBrowser.Server.Core",
             "purl": "",
-            "version": "4.11.0.6-beta"
+            "version": "4.11.0.7-beta"
           },
           {
             "name": "Microsoft.ApplicationInsights",
@@ -711,7 +711,7 @@
           {
             "name": "NetVips",
             "purl": "",
-            "version": "3.0.0"
+            "version": "3.2.0"
           },
           {
             "name": "Newtonsoft.Json",
@@ -801,7 +801,7 @@
           {
             "name": "RSSDP",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "SMBLibrary",
@@ -816,7 +816,7 @@
           {
             "name": "SQLitePCLRawEx.core",
             "purl": "",
-            "version": "4.11.0.6"
+            "version": "4.11.0.7"
           },
           {
             "name": "ServiceStack.Text.Core",
@@ -831,7 +831,7 @@
           {
             "name": "SimpleInjector",
             "purl": "",
-            "version": "5.5.2"
+            "version": "5.6.0"
           },
           {
             "name": "SkiaSharp",
@@ -1365,7 +1365,7 @@
               "UNKNOWN"
             ],
             "name": "emby-server",
-            "version": "4.11.0.6_1"
+            "version": "4.11.0.7_1"
           },
           {
             "licenses": [
@@ -2017,7 +2017,7 @@
     "pkg": {
       "app_version": "4.9.3.0_4",
       "arch": "amd64",
-      "generated": "2026-10-11T07:27:40Z",
+      "generated": "2026-10-12T20:40:04Z",
       "packages": {
         "dotnet": [
           {
@@ -4590,7 +4590,7 @@
     "pkg-latest": {
       "app_version": "4.9.3.0_5",
       "arch": "amd64",
-      "generated": "2026-10-11T07:27:14Z",
+      "generated": "2026-10-12T20:43:47Z",
       "packages": {
         "dotnet": [
           {
@@ -5957,7 +5957,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -5980,7 +5980,7 @@
               "MIT"
             ],
             "name": "cmrtlib",
-            "version": "20.1.1"
+            "version": "26.3.5"
           },
           {
             "licenses": [
@@ -7048,7 +7048,7 @@
               "MIT"
             ],
             "name": "xorgproto",
-            "version": "2025.1"
+            "version": "2026.1"
           },
           {
             "licenses": [
