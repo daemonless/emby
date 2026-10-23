@@ -1,0 +1,6 @@
+#!/bin/sh
+# /config belongs to bsd (as non-root, the runtime owns it).
+mkdir -p /config
+if [ "$(id -u)" = 0 ]; then
+    chown -R bsd:bsd /config
+fi

@@ -1,5 +1,5 @@
 ARG BASE_VERSION=15.1
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="dotnet8 expat fontconfig freetype2 fribidi gettext-runtime intel-media-sdk libarchive libass libdrm libexif libiconv libogg librsvg2-rust libtheora libva libvorbis libzvbi mbedtls3 ocl-icd opus pango sqlite3 tesseract"
@@ -58,8 +58,11 @@ RUN pw usermod bsd -d /config
 ENV HOME=/config
 
 COPY root/ /
+RUN chmod +x /daemonless/libexec/emby-server /daemonless/init.d/*
 
-RUN chmod +x /etc/services.d/emby-server/run /healthz
+CMD ["/daemonless/libexec/emby-server"]
+
+RUN chmod +x /healthz
 
 # --- Expose (Injected by Generator) ---
 {%- if ports %}

@@ -1,16 +1,11 @@
 #!/bin/sh
-# Emby Server s6 service
+# Start emby-server; /init has already dropped to the run user.
 
 export LD_LIBRARY_PATH=/usr/local/lib/emby-server/lib:/usr/local/lib
 export LIBVA_DRIVERS_PATH=/usr/local/lib/dri
 export PATH=/usr/local/lib/emby-server/bin:$PATH
 export SSL_CERT_FILE=/usr/local/lib/emby-server/ca-certificates.crt
 export CLR_OPENSSL_VERSION_OVERRIDE=30
-
-mkdir -p /config
-chown -R bsd:bsd /config
-
-s6-ready-when fetch -qo /dev/null http://localhost:8096/System/Ping
 
 BIN=/usr/local/lib/emby-server/bin
 if [ -f "${BIN}/emby-ffmpeg" ]; then
@@ -23,7 +18,7 @@ else
     FFPROBE="${BIN}/ffprobe"
 fi
 
-exec s6-setuidgid bsd /usr/local/bin/dotnet /usr/local/lib/emby-server/system/EmbyServer.dll \
+exec /usr/local/bin/dotnet /usr/local/lib/emby-server/system/EmbyServer.dll \
     -os freebsd \
     -ffdetect "${FFDETECT}" \
     -ffmpeg "${FFMPEG}" \
